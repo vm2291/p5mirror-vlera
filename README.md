@@ -15,18 +15,18 @@ open https://nodejs.org/en/download
 # where p5name is our editor.p5js user name
 # run this bash script in the root of your repo
 
-bin/mirror.sh --user p5name
+bin/mirror.sh --user vlera
 
 # and then commit changes in github desktop
 
 # remove sketches not present online
-bin/mirror.sh --user p5name --clean
+bin/mirror.sh --user vlera --clean
 
 # full update, download all projects
-bin/mirror.sh --user p5name --full
+bin/mirror.sh --user vlera --full
 
 # run in verbose mode to show details of steps for debugging
-bin/mirror.sh --user p5name --verbose
+bin/mirror.sh --user vlera --verbose
 
 ```
 
@@ -34,11 +34,11 @@ bin/mirror.sh --user p5name --verbose
 
 ```
 # Edit this line for your editor.p5js user name
-bin/mirror.sh --user p5name
+bin/mirror.sh --user vlera
 
-bin/mirror.sh --user p5name --clean
-bin/mirror.sh --user p5name --full
-bin/mirror.sh --user p5name --verbose
+bin/mirror.sh --user vlera --clean
+bin/mirror.sh --user vlera --full
+bin/mirror.sh --user vlera --verbose
 
 ```
 
@@ -112,19 +112,19 @@ Generated listing of editor.p5js projects
 #   and create markdown listing files
 #   only projects updated since last mirror are downloaded
 #
-bin/mirror.sh --user p5name
+bin/mirror.sh --user vlera
 
 # full update, download all projects
 #
-bin/mirror.sh --user p5name --full
+bin/mirror.sh --user vlera --full
 
 # run in verbose mode to show details of steps for debugging
 #
-bin/mirror.sh --user p5name --verbose
+bin/mirror.sh --user vlera --verbose
 
 # remove sketches not present online
 #
-bin/mirror.sh --user p5name --clean
+bin/mirror.sh --user vlera --clean
 
 ```
 

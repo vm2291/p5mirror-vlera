@@ -1,0 +1,2532 @@
+[
+  {
+    "_id": "3FEI7Ur5c",
+    "name": "61",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671f0855955c41e236de9db2",
+          "671f0855955c41e236de9db1",
+          "671f0855955c41e236de9db3"
+        ],
+        "fileType": "folder",
+        "_id": "671f0855955c41e236de9db4",
+        "createdAt": "2024-10-28T03:43:36.342Z",
+        "updatedAt": "2024-10-28T03:43:36.342Z",
+        "id": "671f0855955c41e236de9db4"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(600, 600);\n  background(255);\n\n  for (let i = 0; i < 5; i++) {\n    let diameter = 250 - i * 50;\n    circle(300, 300, diameter);\n  }\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671f0855955c41e236de9db1",
+        "createdAt": "2024-10-28T03:43:36.342Z",
+        "updatedAt": "2024-10-28T03:43:36.342Z",
+        "id": "671f0855955c41e236de9db1"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f0855955c41e236de9db2",
+        "createdAt": "2024-10-28T03:43:36.342Z",
+        "updatedAt": "2024-10-28T03:43:36.342Z",
+        "id": "671f0855955c41e236de9db2"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f0855955c41e236de9db3",
+        "createdAt": "2024-10-28T03:43:36.342Z",
+        "updatedAt": "2024-10-28T03:43:36.342Z",
+        "id": "671f0855955c41e236de9db3"
+      }
+    ],
+    "updatedAt": "2024-10-28T03:43:36.342Z",
+    "createdAt": "2024-10-28T03:43:36.342Z",
+    "id": "3FEI7Ur5c"
+  },
+  {
+    "_id": "gTdrgQwT_",
+    "name": "62",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671f08dd955c41e236de9db6",
+          "671f08dd955c41e236de9db5",
+          "671f08dd955c41e236de9db7"
+        ],
+        "fileType": "folder",
+        "_id": "671f08dd955c41e236de9db8",
+        "createdAt": "2024-10-28T03:47:00.335Z",
+        "updatedAt": "2024-10-28T03:47:00.335Z",
+        "id": "671f08dd955c41e236de9db8"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(600, 600);\n}\n\nfunction draw() {\n  background(210);\n  \n  for (let i = 0; i <= 10; i++) {\n    let x = i * 60;\n    line(x, height, mouseX, mouseY);\n  }\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671f08dd955c41e236de9db5",
+        "createdAt": "2024-10-28T03:47:00.335Z",
+        "updatedAt": "2024-10-28T03:47:00.335Z",
+        "id": "671f08dd955c41e236de9db5"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f08dd955c41e236de9db6",
+        "createdAt": "2024-10-28T03:47:00.335Z",
+        "updatedAt": "2024-10-28T03:47:00.335Z",
+        "id": "671f08dd955c41e236de9db6"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f08dd955c41e236de9db7",
+        "createdAt": "2024-10-28T03:47:00.335Z",
+        "updatedAt": "2024-10-28T03:47:00.335Z",
+        "id": "671f08dd955c41e236de9db7"
+      }
+    ],
+    "updatedAt": "2024-10-28T03:47:00.335Z",
+    "createdAt": "2024-10-28T03:45:49.925Z",
+    "id": "gTdrgQwT_"
+  },
+  {
+    "_id": "o11qDKHJR",
+    "name": "64",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671f09517237912fc9fcc7ee",
+          "671f09517237912fc9fcc7ef",
+          "671f09517237912fc9fcc7f0"
+        ],
+        "fileType": "folder",
+        "_id": "671f09517237912fc9fcc7ed",
+        "createdAt": "2024-10-28T03:50:37.436Z",
+        "updatedAt": "2024-10-28T03:50:37.436Z",
+        "id": "671f09517237912fc9fcc7ed"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(400, 360);\n}\n\nfunction draw() {\n  background(240);\n  drawCircle();\n  drawEllipses();\n  drawPoints();\n  drawLines();\n  drawTriangle();\n  drawArc();\n  drawSmallTriangle();\n  drawShortLines();\n}\n\nfunction drawCircle() {\n  fill(180, 100);\n  strokeWeight(2);\n  circle(200, 100, 150);\n}\n\nfunction drawEllipses() {\n  strokeWeight(2);\n  ellipse(100, 80, 40, 20);\n  strokeWeight(1);\n  ellipse(210, 100, 40, 20);\n}\n\nfunction drawPoints() {\n  strokeWeight(3);\n  point(110, 80);\n  point(220, 100);\n}\n\nfunction drawLines() {\n  strokeWeight(1);\n  for (let i = 0; i < 4; i++) {\n    line(90 + i * 10, 65, 100 + i * 10, 45);\n  }\n\n  for (let i = 0; i < 4; i++) {\n    line(195 + i * 10, 85, 205 + i * 10, 65);\n  }\n}\n\nfunction drawTriangle() {\n  strokeWeight(2);\n  triangle(160, height, 263, 202, 263, height);\n}\n\nfunction drawArc() {\n  strokeWeight(1);\n  arc(175, 200, 175, 175, 0, HALF_PI, PIE);\n}\n\nfunction drawSmallTriangle() {\n  strokeWeight(1);\n  triangle(120, 225, 190, 100, 190, 225);\n}\n\nfunction drawShortLines() {\n  strokeWeight(3);\n  line(150, 245, 190, 250);\n  line(155, 260, 190, 250);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671f09517237912fc9fcc7ef",
+        "createdAt": "2024-10-28T03:50:37.436Z",
+        "updatedAt": "2024-10-28T03:50:37.436Z",
+        "id": "671f09517237912fc9fcc7ef"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f09517237912fc9fcc7ee",
+        "createdAt": "2024-10-28T03:50:37.436Z",
+        "updatedAt": "2024-10-28T03:50:37.436Z",
+        "id": "671f09517237912fc9fcc7ee"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f09517237912fc9fcc7f0",
+        "createdAt": "2024-10-28T03:50:37.436Z",
+        "updatedAt": "2024-10-28T03:50:37.436Z",
+        "id": "671f09517237912fc9fcc7f0"
+      }
+    ],
+    "createdAt": "2024-10-28T03:47:29.807Z",
+    "updatedAt": "2024-10-28T03:50:37.436Z",
+    "id": "o11qDKHJR"
+  },
+  {
+    "_id": "3huar3ZZX",
+    "name": "65",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671f0a917237912fc9fcc7f2",
+          "671f0a917237912fc9fcc7f1",
+          "671f0a917237912fc9fcc7f3"
+        ],
+        "fileType": "folder",
+        "_id": "671f0a917237912fc9fcc7f4",
+        "createdAt": "2024-10-28T03:53:01.812Z",
+        "updatedAt": "2024-10-28T03:53:01.812Z",
+        "id": "671f0a917237912fc9fcc7f4"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let colors = ['red', 'blue', 'green', 'yellow', 'purple'];\nlet currentColor = 0;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(colors[currentColor]);\n}\n\nfunction mousePressed() {\n  currentColor++;\n  if (currentColor >= colors.length) {\n    currentColor = 0;\n  }\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671f0a917237912fc9fcc7f1",
+        "createdAt": "2024-10-28T03:53:01.812Z",
+        "updatedAt": "2024-10-28T03:53:01.812Z",
+        "id": "671f0a917237912fc9fcc7f1"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f0a917237912fc9fcc7f2",
+        "createdAt": "2024-10-28T03:53:01.812Z",
+        "updatedAt": "2024-10-28T03:53:01.812Z",
+        "id": "671f0a917237912fc9fcc7f2"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f0a917237912fc9fcc7f3",
+        "createdAt": "2024-10-28T03:53:01.812Z",
+        "updatedAt": "2024-10-28T03:53:01.812Z",
+        "id": "671f0a917237912fc9fcc7f3"
+      }
+    ],
+    "updatedAt": "2024-10-28T03:53:01.812Z",
+    "createdAt": "2024-10-28T03:53:01.812Z",
+    "id": "3huar3ZZX"
+  },
+  {
+    "_id": "T7xJ2H0HZ",
+    "name": "66",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671f0b390faf9bdc3ffa1372",
+          "671f0b390faf9bdc3ffa1371",
+          "671f0b390faf9bdc3ffa1373"
+        ],
+        "fileType": "folder",
+        "_id": "671f0b390faf9bdc3ffa1374",
+        "createdAt": "2024-10-28T03:58:08.165Z",
+        "updatedAt": "2024-10-28T03:58:08.165Z",
+        "id": "671f0b390faf9bdc3ffa1374"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(600, 600);\n}\n\nfunction draw() {\n  background(200);\n  \n  let rowHeight = height / 3;\n  stroke(0);\n  line(0, rowHeight, width, rowHeight);\n  line(0, 2 * rowHeight, width, 2 * rowHeight);\n\n  let section;\n  if (mouseY < rowHeight) {\n    section = \"Top Section\";\n  } else if (mouseY < 2 * rowHeight) {\n    section = \"Middle Section\";\n  } else {\n    section = \"Bottom Section\";\n  }\n\n  fill(0);\n  textAlign(CENTER, CENTER);\n  textSize(32);\n  text(section, width / 2, height / 2);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671f0b390faf9bdc3ffa1371",
+        "createdAt": "2024-10-28T03:58:08.165Z",
+        "updatedAt": "2024-10-28T03:58:08.165Z",
+        "id": "671f0b390faf9bdc3ffa1371"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f0b390faf9bdc3ffa1372",
+        "createdAt": "2024-10-28T03:58:08.165Z",
+        "updatedAt": "2024-10-28T03:58:08.165Z",
+        "id": "671f0b390faf9bdc3ffa1372"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671f0b390faf9bdc3ffa1373",
+        "createdAt": "2024-10-28T03:58:08.165Z",
+        "updatedAt": "2024-10-28T03:58:08.165Z",
+        "id": "671f0b390faf9bdc3ffa1373"
+      }
+    ],
+    "updatedAt": "2024-10-28T03:58:08.165Z",
+    "createdAt": "2024-10-28T03:56:37.495Z",
+    "id": "T7xJ2H0HZ"
+  },
+  {
+    "_id": "PhteAEX9E",
+    "name": "a1",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "670c4c17423428746768d421",
+          "670c4c17423428746768d422",
+          "670c4c17423428746768d423"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "670c4c17423428746768d420",
+        "createdAt": "2024-10-15T01:39:57.113Z",
+        "updatedAt": "2024-10-15T01:39:57.113Z",
+        "id": "670c4c17423428746768d420"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(500, 500);\n  background(\"#CEC0D8\");\n  angleMode(DEGREES);\n  \n  //dress/shoulders\n  noStroke();\n  fill(55, 153, 202);\n  \n     //x, y, width, height, radius\n  rect(79, 375, 330, 190, 180);\n  \n  //hijab\n  noStroke();\n  fill(15, 33, 121);\n  arc(200, 280, 300, 380, 120, 90, OPEN);\n  arc(250, 420, 200, 250, 120, 90, OPEN); \n  \n  //face\n  noStroke();\n  fill(230, 217, 213);\n  ellipse(220, 265, 200, 242);  \n  \n  \n}",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "670c4c17423428746768d422",
+        "createdAt": "2024-10-15T01:39:57.113Z",
+        "updatedAt": "2024-10-15T01:39:57.113Z",
+        "id": "670c4c17423428746768d422"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "670c4c17423428746768d421",
+        "createdAt": "2024-10-15T01:39:57.113Z",
+        "updatedAt": "2024-10-15T01:39:57.113Z",
+        "id": "670c4c17423428746768d421"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "670c4c17423428746768d423",
+        "createdAt": "2024-10-15T01:39:57.113Z",
+        "updatedAt": "2024-10-15T01:39:57.113Z",
+        "id": "670c4c17423428746768d423"
+      }
+    ],
+    "createdAt": "2024-10-13T22:39:20.078Z",
+    "updatedAt": "2024-10-15T01:39:57.113Z",
+    "id": "PhteAEX9E"
+  },
+  {
+    "_id": "cy-FXzgb6",
+    "name": "a1 DRAFT",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "670dc4fc5bb43c0716e29247",
+          "670dc4fc5bb43c0716e29248",
+          "670dc4fc5bb43c0716e29249"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "670dc4fc5bb43c0716e29246",
+        "createdAt": "2024-10-15T01:40:03.086Z",
+        "updatedAt": "2024-10-15T01:40:03.086Z",
+        "id": "670dc4fc5bb43c0716e29246"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(500, 500);\n  background(\"#CEC0D8\");\n  angleMode(DEGREES);\n  \n  //dress/shoulders\n  noStroke();\n  fill(55, 153, 202);\n  \n     //x, y, width, height, radius\n  rect(79, 375, 330, 190, 180);\n  fill(15, 33, 121);\n  arc(200, 280, 300, 380, 120, 90, OPEN);\n  arc(250, 420, 200, 250, 120, 90, OPEN); \n}\n\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "670dc4fc5bb43c0716e29248",
+        "createdAt": "2024-10-15T01:40:03.086Z",
+        "updatedAt": "2024-10-15T01:40:03.086Z",
+        "id": "670dc4fc5bb43c0716e29248"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "670dc4fc5bb43c0716e29247",
+        "createdAt": "2024-10-15T01:40:03.086Z",
+        "updatedAt": "2024-10-15T01:40:03.086Z",
+        "id": "670dc4fc5bb43c0716e29247"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "670dc4fc5bb43c0716e29249",
+        "createdAt": "2024-10-15T01:40:03.086Z",
+        "updatedAt": "2024-10-15T01:40:03.086Z",
+        "id": "670dc4fc5bb43c0716e29249"
+      }
+    ],
+    "createdAt": "2024-10-15T01:27:24.356Z",
+    "updatedAt": "2024-10-15T01:40:03.086Z",
+    "id": "cy-FXzgb6"
+  },
+  {
+    "_id": "D5f7HahJa",
+    "name": "a1 final",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "670dc9d64e4d55424d3512cd",
+          "670dc9d64e4d55424d3512ce",
+          "670dc9d64e4d55424d3512cf"
+        ],
+        "fileType": "folder",
+        "_id": "670dc9d64e4d55424d3512cc",
+        "createdAt": "2024-10-15T13:10:10.418Z",
+        "updatedAt": "2024-10-15T13:10:10.418Z",
+        "id": "670dc9d64e4d55424d3512cc"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(500, 500);\n  background(\"#CEC0D8\");\n  \n  //Using degrees instead of radians for angles\n  angleMode(DEGREES);\n\n  // ---Dress/shoulders ---\n  noStroke();\n  fill(55, 153, 202);\n  //x, y, width, height, radius\n  rect(width * 0.16, height * 0.75, width * 0.66, height * 0.38, 180);\n\n  // ---hijab ---\n  noStroke();\n  fill(15, 33, 121);\n arc(width * 0.4, height * 0.56, width * 0.6, height * 0.76, 120, 90, CHORD);\n  arc(width * 0.5, height * 0.84, width * 0.4, height * 0.5, 120, 90, CHORD);\n\n  // ---face---\n  noStroke();\n  fill(230, 217, 213);\n  ellipse(width * 0.44, height * 0.53, width * 0.4, height * 0.48);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "670dc9d64e4d55424d3512ce",
+        "createdAt": "2024-10-15T13:10:10.418Z",
+        "updatedAt": "2024-10-15T13:10:10.418Z",
+        "id": "670dc9d64e4d55424d3512ce"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670dc9d64e4d55424d3512cd",
+        "createdAt": "2024-10-15T13:10:10.418Z",
+        "updatedAt": "2024-10-15T13:10:10.418Z",
+        "id": "670dc9d64e4d55424d3512cd"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670dc9d64e4d55424d3512cf",
+        "createdAt": "2024-10-15T13:10:10.418Z",
+        "updatedAt": "2024-10-15T13:10:10.418Z",
+        "id": "670dc9d64e4d55424d3512cf"
+      }
+    ],
+    "createdAt": "2024-10-15T01:48:06.433Z",
+    "updatedAt": "2024-10-15T13:10:10.418Z",
+    "id": "D5f7HahJa"
+  },
+  {
+    "_id": "3b9G-crYn",
+    "name": "a1.4",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "670d9e629b516b7e0f22ac6b",
+          "670d9e629b516b7e0f22ac6a",
+          "670d9e629b516b7e0f22ac6c"
+        ],
+        "fileType": "folder",
+        "_id": "670d9e629b516b7e0f22ac6d",
+        "createdAt": "2024-10-14T22:51:34.124Z",
+        "updatedAt": "2024-10-14T22:51:34.124Z",
+        "id": "670d9e629b516b7e0f22ac6d"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(400, 400);\n  background(255);\n  \n  rect(0, 0, width/4, height);\n  rect(width/4, 0, width/4, height);\n  rect(width/2, 0, width/4, height);\n  rect((width*3)/4, 0, width/4, height);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "670d9e629b516b7e0f22ac6a",
+        "createdAt": "2024-10-14T22:51:34.124Z",
+        "updatedAt": "2024-10-14T22:51:34.124Z",
+        "id": "670d9e629b516b7e0f22ac6a"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670d9e629b516b7e0f22ac6b",
+        "createdAt": "2024-10-14T22:51:34.124Z",
+        "updatedAt": "2024-10-14T22:51:34.124Z",
+        "id": "670d9e629b516b7e0f22ac6b"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670d9e629b516b7e0f22ac6c",
+        "createdAt": "2024-10-14T22:51:34.124Z",
+        "updatedAt": "2024-10-14T22:51:34.124Z",
+        "id": "670d9e629b516b7e0f22ac6c"
+      }
+    ],
+    "updatedAt": "2024-10-14T22:51:34.124Z",
+    "createdAt": "2024-10-14T22:47:02.527Z",
+    "id": "3b9G-crYn"
+  },
+  {
+    "_id": "aSQJdFIWW",
+    "name": "Assignment1.2",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "670d94af875c956817edb867",
+          "670d94af875c956817edb866",
+          "670d94af875c956817edb868"
+        ],
+        "fileType": "folder",
+        "_id": "670d94af875c956817edb869",
+        "createdAt": "2024-10-14T22:18:56.206Z",
+        "updatedAt": "2024-10-14T22:18:56.206Z",
+        "id": "670d94af875c956817edb869"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  //Setting canva size\n  createCanvas(600, 600);\n\n  //Setting background color\n  background(255);\n\n  //Setting each circle 300x300 with a diffrence in diameter size for 50 pixels\n  circle(300, 300, 250);\n  circle(300, 300, 200);\n  circle(300, 300, 150);\n  circle(300, 300, 100);\n  circle(300, 300, 50);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "670d94af875c956817edb866",
+        "createdAt": "2024-10-14T22:18:56.206Z",
+        "updatedAt": "2024-10-14T22:18:56.206Z",
+        "id": "670d94af875c956817edb866"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670d94af875c956817edb867",
+        "createdAt": "2024-10-14T22:18:56.206Z",
+        "updatedAt": "2024-10-14T22:18:56.206Z",
+        "id": "670d94af875c956817edb867"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670d94af875c956817edb868",
+        "createdAt": "2024-10-14T22:18:56.206Z",
+        "updatedAt": "2024-10-14T22:18:56.206Z",
+        "id": "670d94af875c956817edb868"
+      }
+    ],
+    "updatedAt": "2024-10-14T22:18:56.206Z",
+    "createdAt": "2024-10-14T22:14:58.367Z",
+    "id": "aSQJdFIWW"
+  },
+  {
+    "_id": "Fcd0I49qX",
+    "name": "Brave wander",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67183e12bf354b69993dc764",
+          "67183ca81ce8450ac318f708",
+          "67183ca81ce8450ac318f707",
+          "67183ca81ce8450ac318f709"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "67183ca81ce8450ac318f70a",
+        "createdAt": "2024-10-23T03:44:49.376Z",
+        "updatedAt": "2024-10-23T03:44:49.376Z",
+        "id": "67183ca81ce8450ac318f70a"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let dropY1 = 0;\nlet dropY2 = -50;\nlet dropY3 = -100;\nlet dropY4 = -150;\nlet speed = 2;  \nlet bg;  \n\n// Loading the image\nfunction preload() {\n // bg = loadImage('CANVARAINBG.png');  \n}\n\nfunction setup() {\n  createCanvas(800, 800);  \n}\n\nfunction draw() {\n  background(220);  // Set the background image\n\n  // Change speed depending on mouse position\n  if (mouseX < width / 2) {\n    speed = 8;  // Fast raindrops on the left half\n  } else {\n    speed = 2;  // Slow raindrops on the right half\n  }\n\n  // Set the raindrop color to blue\n  fill(51, 153, 255);\n  noStroke();  // No outline around the raindrops\n\n  // Draw and move each raindrop down the canvas\n  ellipse(200, dropY1, 10, 20);  // Raindrop 1\n  dropY1 += speed;  // Move raindrop 1\n  if (dropY1 > height) {\n    dropY1 = 0;  // Reset to the top\n  }\n\n  ellipse(400, dropY2, 10, 20);  // Raindrop 2\n  dropY2 += speed;  // Move raindrop 2\n  if (dropY2 > height) {\n    dropY2 = 0;  // Reset to the top\n  }\n\n  ellipse(600, dropY3, 10, 20);  // Raindrop 3\n  dropY3 += speed;  // Move raindrop 3\n  if (dropY3 > height) {\n    dropY3 = 0;  // Reset to the top\n  }\n\n  ellipse(700, dropY4, 10, 20);  // Raindrop 4\n  dropY4 += speed;  // Move raindrop 4\n  if (dropY4 > height) {\n    dropY4 = 0;  // Reset to the top\n  }\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67183ca81ce8450ac318f707",
+        "createdAt": "2024-10-23T03:44:49.376Z",
+        "updatedAt": "2024-10-23T03:44:49.376Z",
+        "id": "67183ca81ce8450ac318f707"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67183ca81ce8450ac318f708",
+        "createdAt": "2024-10-23T03:44:49.376Z",
+        "updatedAt": "2024-10-23T03:44:49.376Z",
+        "id": "67183ca81ce8450ac318f708"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67183ca81ce8450ac318f709",
+        "createdAt": "2024-10-23T03:44:49.376Z",
+        "updatedAt": "2024-10-23T03:44:49.376Z",
+        "id": "67183ca81ce8450ac318f709"
+      },
+      {
+        "name": "CANVARAINBG.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/adb583c3-b5e4-4bc5-9e74-457c4430381c.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67183e12bf354b69993dc764",
+        "createdAt": "2024-10-23T03:44:49.376Z",
+        "updatedAt": "2024-10-23T03:44:49.376Z",
+        "id": "67183e12bf354b69993dc764"
+      }
+    ],
+    "updatedAt": "2024-10-23T03:44:49.376Z",
+    "createdAt": "2024-10-23T00:04:12.252Z",
+    "id": "Fcd0I49qX"
+  },
+  {
+    "_id": "MDUkO-McU",
+    "name": "Brave wander copy",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67184f2a919bc578d32ab855",
+          "67184f2a919bc578d32ab856",
+          "67184f2a919bc578d32ab857",
+          "67184f2a919bc578d32ab858"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "67184f2a919bc578d32ab854",
+        "createdAt": "2024-10-23T03:47:20.293Z",
+        "updatedAt": "2024-10-23T03:47:20.293Z",
+        "id": "67184f2a919bc578d32ab854"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let dropY1 = 0;\nlet dropY2 = -50;\nlet dropY3 = -100;\nlet dropY4 = -150;\nlet speed = 2;  \nlet bg;  \n\n// Loading the image\nfunction preload() {\n  bg = loadImage('CANVARAINBG.png');  \n}\n\nfunction setup() {\n  createCanvas(800, 800);  \n}\n\nfunction draw() {\n  background(bg);  // Set the background image\n\n  // Change speed depending on mouse position\n  if (mouseX < width / 2) {\n    speed = 8;  // Fast raindrops on the left half\n  } else {\n    speed = 2;  // Slow raindrops on the right half\n  }\n\n  // Set the raindrop color to blue\n  fill(51, 153, 255);\n  noStroke();  // No outline around the raindrops\n\n  // Draw and move each raindrop down the canvas\n  ellipse(200, dropY1, 10, 20);  // Raindrop 1\n  dropY1 += speed;  // Move raindrop 1\n  if (dropY1 > height) {\n    dropY1 = 0;  // Reset to the top\n  }\n\n  ellipse(400, dropY2, 10, 20);  // Raindrop 2\n  dropY2 += speed;  // Move raindrop 2\n  if (dropY2 > height) {\n    dropY2 = 0;  // Reset to the top\n  }\n\n  ellipse(600, dropY3, 10, 20);  // Raindrop 3\n  dropY3 += speed;  // Move raindrop 3\n  if (dropY3 > height) {\n    dropY3 = 0;  // Reset to the top\n  }\n\n  ellipse(700, dropY4, 10, 20);  // Raindrop 4\n  dropY4 += speed;  // Move raindrop 4\n  if (dropY4 > height) {\n    dropY4 = 0;  // Reset to the top\n  }\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67184f2a919bc578d32ab857",
+        "createdAt": "2024-10-23T03:47:20.293Z",
+        "updatedAt": "2024-10-23T03:47:20.293Z",
+        "id": "67184f2a919bc578d32ab857"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67184f2a919bc578d32ab856",
+        "createdAt": "2024-10-23T03:47:20.293Z",
+        "updatedAt": "2024-10-23T03:47:20.293Z",
+        "id": "67184f2a919bc578d32ab856"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67184f2a919bc578d32ab858",
+        "createdAt": "2024-10-23T03:47:20.293Z",
+        "updatedAt": "2024-10-23T03:47:20.293Z",
+        "id": "67184f2a919bc578d32ab858"
+      },
+      {
+        "name": "CANVARAINBG.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/e0699794-ad82-4a39-97f5-cf54c920cd54.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67184f2a919bc578d32ab855",
+        "createdAt": "2024-10-23T03:47:20.293Z",
+        "updatedAt": "2024-10-23T03:47:20.293Z",
+        "id": "67184f2a919bc578d32ab855"
+      }
+    ],
+    "createdAt": "2024-10-23T01:19:38.626Z",
+    "updatedAt": "2024-10-23T03:47:20.293Z",
+    "id": "MDUkO-McU"
+  },
+  {
+    "_id": "IGMJZg1l5U",
+    "name": "CC - WK10 - BodyPose basics with Movenet copy",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "6732310ce30c94881542be81",
+          "6732310ce30c94881542be82"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "6732310ce30c94881542be80",
+        "createdAt": "2024-11-11T16:30:37.313Z",
+        "updatedAt": "2024-11-11T16:30:37.313Z",
+        "id": "6732310ce30c94881542be80"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nModified from ml5 next-gen example\nhttps://editor.p5js.org/ml5/sketches/c8sl_hGmN\n\"MoveNet is an ultra fast and accurate model that detects 17 keypoints of a body\"\n*/\n\nlet video;\n\n// STEP 1 declare variable for bodyPose Model\nlet bodyPose;\n\n\n// STEP 3 create array to hold bodyPose data\nlet poses = [];\n\nfunction preload() {\n  // STEP 1 - Load the bodyPose model.\n  bodyPose = ml5.bodyPose(\"MoveNet\", { flipped: true });\n}\n\nfunction setup() {\n  createCanvas(640, 480);\n\n  // Create video element, flip it, and hide it\n  video = createCapture(VIDEO, { flipped: true });\n  video.size(width, height);\n  video.hide();\n\n  // STEP 2 - Start detecting poses in the webcam video\n  bodyPose.detectStart(video, gotPoses)\n  \n}\n\n\n// STEP 3 - Callback function for when bodyPose outputs data\nfunction gotPoses(results) {\n  // save the output to poses [] variable\n  poses = results;\n}\n\n\n// STEP 4 - Function to print pose info in Console\nfunction mousePressed() {\n console.log(poses)\n  \n}\n\nfunction draw() {\n\n  // Draw the webcam video\n  image(video, 0, 0, width, height);\n\n  // STEP 5 - If there are poses, work with specific points\n  if (poses.length > 0) {\n    // Just get the first human\n    let pose = poses[0]\n    \n    // Add circle to  keypoint\n    let nose = pose.nose;\n    circle(pose.nose.x, pose.nose.y, 50)\n  }\n  \n  \n  \n  \n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "6732310ce30c94881542be82",
+        "createdAt": "2024-11-11T16:30:37.313Z",
+        "updatedAt": "2024-11-11T16:30:37.313Z",
+        "id": "6732310ce30c94881542be82"
+      },
+      {
+        "name": "index.html",
+        "content": "<!--\n Copyright (c) 2018-2024 ml5\n \n This software is released under the MIT License.\n https://opensource.org/licenses/MIT\n-->\n\n<html>\n  <head>\n    <meta charset=\"UTF-8\" />\n    <title>ml5.js Bodypose Detection Example</title>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://unpkg.com/ml5@1/dist/ml5.js\"></script>\n  </head>\n\n  <body>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "6732310ce30c94881542be81",
+        "createdAt": "2024-11-11T16:30:37.313Z",
+        "updatedAt": "2024-11-11T16:30:37.313Z",
+        "id": "6732310ce30c94881542be81"
+      }
+    ],
+    "createdAt": "2024-11-11T16:30:04.849Z",
+    "updatedAt": "2024-11-11T16:30:37.313Z",
+    "id": "IGMJZg1l5U"
+  },
+  {
+    "_id": "1X29uTLdr",
+    "name": "CC - WK10 - Webcam basics copy",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "673229544772b342b3b118dd",
+          "673229544772b342b3b118de",
+          "673229544772b342b3b118df"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "673229544772b342b3b118dc",
+        "createdAt": "2024-11-11T15:57:47.093Z",
+        "updatedAt": "2024-11-11T15:57:47.093Z",
+        "id": "673229544772b342b3b118dc"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let cam;\n\nfunction setup() {\n  createCanvas(320, 240);\n  \n  // Connect to camera \n  cam = createCapture(VIDEO, {flipped: true})\n  \n  // Hide element from displaying below canvas\n  cam.hide()\n}\n\nfunction draw() {\n  background(220);\n\n  // Draw webcam on canvas \n  image(cam, 0, 0, 320, 240)\n \n\n}\n\n\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "673229544772b342b3b118de",
+        "createdAt": "2024-11-11T15:57:47.093Z",
+        "updatedAt": "2024-11-11T15:57:47.093Z",
+        "id": "673229544772b342b3b118de"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "673229544772b342b3b118dd",
+        "createdAt": "2024-11-11T15:57:47.093Z",
+        "updatedAt": "2024-11-11T15:57:47.093Z",
+        "id": "673229544772b342b3b118dd"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "673229544772b342b3b118df",
+        "createdAt": "2024-11-11T15:57:47.093Z",
+        "updatedAt": "2024-11-11T15:57:47.093Z",
+        "id": "673229544772b342b3b118df"
+      }
+    ],
+    "createdAt": "2024-11-11T15:57:08.810Z",
+    "updatedAt": "2024-11-11T15:57:47.093Z",
+    "id": "1X29uTLdr"
+  },
+  {
+    "_id": "I-0zbKg0X",
+    "name": "CC - WK6 - checking multiple conditions (light up columns) VLERA",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "670e87224d69c4c6eae0c604",
+          "670e87224d69c4c6eae0c605",
+          "670e87224d69c4c6eae0c606"
+        ],
+        "fileType": "folder",
+        "_id": "670e87224d69c4c6eae0c603",
+        "createdAt": "2024-10-15T15:30:05.710Z",
+        "updatedAt": "2024-10-15T15:30:05.710Z",
+        "id": "670e87224d69c4c6eae0c603"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  fill(255,0,0)\n  \n  if (mouseX < width/4) {\n    rect(0, 0, width / 4, height);\n  } else if (mouseX < width/4 * 2) {\n    rect(width / 4, 0, width / 4, height)\n  } else if (width/4 * 3, 0, width / 4, height) {\n    rect(width / 4*2, 0, width / 4, height)\n    }\n  else {\n    rect(width/4*3, 0, width / 4, height);\n  }\n}",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "670e87224d69c4c6eae0c605",
+        "createdAt": "2024-10-15T15:30:05.710Z",
+        "updatedAt": "2024-10-15T15:30:05.710Z",
+        "id": "670e87224d69c4c6eae0c605"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670e87224d69c4c6eae0c604",
+        "createdAt": "2024-10-15T15:30:05.710Z",
+        "updatedAt": "2024-10-15T15:30:05.710Z",
+        "id": "670e87224d69c4c6eae0c604"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670e87224d69c4c6eae0c606",
+        "createdAt": "2024-10-15T15:30:05.710Z",
+        "updatedAt": "2024-10-15T15:30:05.710Z",
+        "id": "670e87224d69c4c6eae0c606"
+      }
+    ],
+    "createdAt": "2024-10-15T15:15:46.789Z",
+    "updatedAt": "2024-10-15T15:30:05.710Z",
+    "id": "I-0zbKg0X"
+  },
+  {
+    "_id": "buUUHguau",
+    "name": "CC - WK7 - face with functions v1 (without arguments) copy",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67166bf3f2ed00ffd9c929ac",
+          "67166bf3f2ed00ffd9c929ad",
+          "67166bf3f2ed00ffd9c929ae"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "67166bf3f2ed00ffd9c929ab",
+        "createdAt": "2024-10-21T15:22:13.342Z",
+        "updatedAt": "2024-10-21T15:22:13.342Z",
+        "id": "67166bf3f2ed00ffd9c929ab"
+      },
+      {
+        "name": "sketch.js",
+        "content": "\n\nfunction setup() {\n  createCanvas(400, 400);\n  angleMode(DEGREES);\n  strokeWeight(8);\n}\n\nfunction draw() {\n  background(220);\n  drawHead();\n  drawEyes();\n  drawMouth();\n  cheeks(100, 200, 30);\n  cheeks(320, 180, 25);\n  cheeks(330, 165, 20);\n  \n  cheeks(300, 200, 30);\n  cheeks(80, 180, 25);\n  cheeks(70, 165, 20);\n  nose ();\n}\n\nfunction drawEyes() {\n  fill(255)\n  ellipse(150, 150, 40, 100);\n  ellipse(250, 150, 40, 100);\n}\n\nfunction drawMouth() {\n  arc(200, 235, 200, 160, 0, 180, CHORD);\n}\n\nfunction drawHead() {\n  circle(200, 200, 300);\n}\n\nfunction cheeks(x,y, size){\n  \ncircle(x, y, size);\ncircle(x, y, size);\n  \n}\nfunction nose (){\n  circle (200, 190, 30)\n}\n\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67166bf3f2ed00ffd9c929ad",
+        "createdAt": "2024-10-21T15:22:13.342Z",
+        "updatedAt": "2024-10-21T15:22:13.342Z",
+        "id": "67166bf3f2ed00ffd9c929ad"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67166bf3f2ed00ffd9c929ac",
+        "createdAt": "2024-10-21T15:22:13.342Z",
+        "updatedAt": "2024-10-21T15:22:13.342Z",
+        "id": "67166bf3f2ed00ffd9c929ac"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67166bf3f2ed00ffd9c929ae",
+        "createdAt": "2024-10-21T15:22:13.342Z",
+        "updatedAt": "2024-10-21T15:22:13.342Z",
+        "id": "67166bf3f2ed00ffd9c929ae"
+      }
+    ],
+    "createdAt": "2024-10-21T14:57:55.629Z",
+    "updatedAt": "2024-10-21T15:22:13.342Z",
+    "id": "buUUHguau"
+  },
+  {
+    "_id": "TrujptNIB",
+    "name": "CC - WK9 - p5 WebSerial Input to move ball copy",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "6728dbd2f4f9503a88a08537",
+          "6728dbd2f4f9503a88a08538",
+          "6728dbd2f4f9503a88a08539"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "6728dbd2f4f9503a88a08536",
+        "createdAt": "2024-11-04T14:44:03.033Z",
+        "updatedAt": "2024-11-04T14:44:03.033Z",
+        "id": "6728dbd2f4f9503a88a08536"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nNYU IMA Creative Computing\nEllen Nickles\n\nSerial read using p5.webserial, one value\n\nModified from sources: \nhttps://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\n\nhttps://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/\n*/\n\n// instance of p5.webserial library:\nlet serial = new p5.WebSerial();\n// port chooser button:\nlet portButton;\n\nlet inData;\n\nlet x = 200;\nlet xspeed = 1;\nlet y = 200;\nlet yspeed = 1;\n\nfunction setup() {\n  createCanvas(400, 400);\n  // check to see if serial is available:\n  if (!navigator.serial) {\n    alert(\"WebSerial is not supported in this browser. Try Chrome or MS Edge.\");\n  } else {\n    // set up serial communication\n    setupSerial();\n  }\n}\n\nfunction draw() {\n  background(220);\n\n  // if there is incoming data\n  if (inData) {\n    // ball to move\n    circle(x, y, 50);\n    \n    // if yspeed is positive, y gets bigger and ball moves down\n    // if yspeed is negative, y gets smaller and ball moves up\n    // yspeed value determined by incoming sensor data\n    y += yspeed;\n    x += xspeed\n  }\n}\n\n/*------------------------------------*\\\n  Functions for Serial Communication\n\\*------------------------------------*/\n\n// If all goes well from the functions below,\n// read any incoming data as a \"string\"\n// (assumes a newline at the end of it)\n\nfunction serialEvent() {\n  // all the code to handle the incoming data:\n\n  // STEP 1\n  // read string and convert to a number:\n  inData = Number(serial.readString());\n\n  // STEP 2\n  // verify that you are getting data:\n  // console.log(\"sensor value: \" + inData);\n\n  // if there is incoming data\n  if (inData) {\n    // check it and making something happen\n    \n    // STEP 3\n    // move a ball\n    // up and down\n    if (inData == 1) {\n      console.log(inData + \"move the ball down\")\n      yspeed = 1; // make yspeed positive\n    } else if (inData==2){\n       console.log(inData + \"move the ball up\")\n       yspeed = -1; // make yspeed negative\n    }\n    \n    \n    // STEP 4\n    // left and right\n    else if (inData==3){\n       console.log(inData + \"move the ball right\")\n       xspeed = 1; // make xspeed negative\n    }\n    else if (inData==4){\n       console.log(inData + \"move the ball left\")\n       xspeed = -1; // make xspeed negative\n    }\n    \n    // STEP 5\n    // maybe point Arduino away for directions to make sense!\n    // All together now!\n  }\n}\n\nfunction setupSerial() {\n  // check for any ports that are available:\n  serial.getPorts();\n  // if there's no port chosen, choose one:\n  serial.on(\"noport\", makePortButton);\n  // open whatever port is available:\n  serial.on(\"portavailable\", openPort);\n  // handle serial errors:\n  serial.on(\"requesterror\", portError);\n  // handle any incoming serial data:\n  serial.on(\"data\", serialEvent);\n  serial.on(\"close\", makePortButton);\n  // add serial connect/disconnect listeners:\n  navigator.serial.addEventListener(\"connect\", portConnect);\n  navigator.serial.addEventListener(\"disconnect\", portDisconnect);\n}\n\n// if there's no port selected,\n// make a port select button appear:\nfunction makePortButton() {\n  // create and position a port chooser button:\n  portButton = createButton(\"choose port\");\n  portButton.position(10, 10);\n  // give the port button a mousepressed handler:\n  portButton.mousePressed(choosePort);\n}\n\n// make the port selector window appear:\nfunction choosePort() {\n  if (portButton) {\n    portButton.show();\n  }\n  serial.requestPort();\n}\n\n// open the selected port, and make the port\n// button invisible:\n// open the selected port, and make the port\n// button invisible:\nfunction openPort() {\n  // wait for the serial.open promise to return,\n  // then call the initiateSerial function\n  serial.open().then(initiateSerial);\n\n  // once the port opens, let the user know:\n  function initiateSerial() {\n    console.log(\"port open\");\n  }\n  // hide the port button once a port is chosen:\n  if (portButton) {\n    portButton.hide();\n  }\n}\n\n// pop up an alert if there's a port error:\nfunction portError(err) {\n  alert(\"Serial port error: \" + err);\n}\n\n// try to connect if a new serial port\n// gets added (i.e. plugged in via USB):\nfunction portConnect() {\n  console.log(\"port connected\");\n  serial.getPorts();\n}\n\n// if a port is disconnected:\nfunction portDisconnect() {\n  serial.close();\n  console.log(\"port disconnected\");\n}\n\nfunction closePort() {\n  serial.close();\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "6728dbd2f4f9503a88a08538",
+        "createdAt": "2024-11-04T14:44:03.033Z",
+        "updatedAt": "2024-11-04T14:44:03.033Z",
+        "id": "6728dbd2f4f9503a88a08538"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js\"\n      integrity=\"sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <script src=\"https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js\"></script>\n    <script src=\"sketch.js\"></script>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>p5.webserial</title>\n  </head>\n  <body>\n<!--     To see the source files of this sketch,\n    <a\n      href=\"https://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\"\n      target=\"_blank\"\n      >click here</a\n    > -->\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "6728dbd2f4f9503a88a08537",
+        "createdAt": "2024-11-04T14:44:03.033Z",
+        "updatedAt": "2024-11-04T14:44:03.033Z",
+        "id": "6728dbd2f4f9503a88a08537"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "6728dbd2f4f9503a88a08539",
+        "createdAt": "2024-11-04T14:44:03.033Z",
+        "updatedAt": "2024-11-04T14:44:03.033Z",
+        "id": "6728dbd2f4f9503a88a08539"
+      }
+    ],
+    "createdAt": "2024-11-04T14:36:02.079Z",
+    "updatedAt": "2024-11-04T14:44:03.033Z",
+    "id": "TrujptNIB"
+  },
+  {
+    "_id": "fcWVh5slS",
+    "name": "ce7",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67283242f6cbe06cd0a54a63",
+          "67283242f6cbe06cd0a54a64",
+          "67283242f6cbe06cd0a54a65",
+          "67283242f6cbe06cd0a54a66"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "67283242f6cbe06cd0a54a62",
+        "createdAt": "2024-11-04T03:43:24.721Z",
+        "updatedAt": "2024-11-04T03:43:24.721Z",
+        "id": "67283242f6cbe06cd0a54a62"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let drop1 = 180;\nlet drop2 = 200;\nlet drop3 = 250;\nlet drop4 = 210;\nlet speed = 10; // initial speed\nlet bg;\nlet serial = new p5.WebSerial(); // instance of p5.webserial library\nlet inData; \nlet portButton;\n\nfunction preload() {\n  bg = loadImage('CANVARAINBG.png');\n}\n\nfunction setup() {\n  makePortButton();\n  // check to see if serial is available:\n  if (!navigator.serial) {\n    alert(\"WebSerial is not supported in this browser. Try Chrome or MS Edge.\");\n  } else {\n    // Set up serial communication\n    setupSerial();\n  }\n  \n  createCanvas(800, 800);\n}\n\nfunction draw() {\n  \n  // Setting the background image\n  background(bg);\n\n  if (inData) {\n    // Mapping the potentiometer values 0-1023 to speed range 1-45\n    speed = map(inData, 0, 1023, 1, 45);\n  }\n\n  fill(51, 153, 255);\n  noStroke();\n\n  // Drawing and moving each raindrop down the canvas\n  ellipse(200, drop1, 10, 20);\n  drop1 = drop1 + speed;\n  if (drop1 > height) {\n    drop1 = 180;\n  }\n\n  ellipse(400, drop2, 10, 20);\n  drop2 = drop2 + speed;\n  if (drop2 > height) {\n    drop2 = 200;\n  }\n\n  ellipse(600, drop3, 10, 20);\n  drop3 = drop3 + speed;\n  if (drop3 > height) {\n    drop3 = 250;\n  }\n\n  ellipse(700, drop4, 10, 20);\n  drop4 = drop4 + speed;\n  if (drop4 > height) {\n    drop4 = 210;\n  }\n}\n\n/*------------------------------------*\\\n  Functions for Serial Input\n\\*------------------------------------*/\n\n// Serial event function to handle incoming data\nfunction serialEvent() {\n  inData = Number(serial.readString().trim()); // read and trim incoming data\n}\n\n// Set up WebSerial connection\nfunction setupSerial() {\n  serial.getPorts();\n  serial.on(\"noport\", makePortButton);\n  serial.on(\"portavailable\", openPort);\n  serial.on(\"requesterror\", portError);\n  serial.on(\"data\", serialEvent);\n  serial.on(\"close\", makePortButton);\n\n  navigator.serial.addEventListener(\"connect\", portConnect);\n  navigator.serial.addEventListener(\"disconnect\", portDisconnect);\n}\n\nfunction makePortButton() {\n  portButton = createButton(\"choose port\");\n  portButton.position(10, 10);\n  portButton.mousePressed(choosePort);\n}\n\nfunction choosePort() {\n  serial.requestPort();\n}\n\nfunction openPort() {\n  serial.open().then(() => {\n    console.log(\"port open\");\n    portButton.hide();\n  });\n}\n\nfunction portError(err) {\n  alert(\"Serial port error: \" + err);\n}\n\nfunction portConnect() {\n  console.log(\"port connected\");\n  serial.getPorts();\n}\n\nfunction portDisconnect() {\n  serial.close();\n  console.log(\"port disconnected\");\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67283242f6cbe06cd0a54a65",
+        "createdAt": "2024-11-04T03:43:24.721Z",
+        "updatedAt": "2024-11-04T03:43:24.721Z",
+        "id": "67283242f6cbe06cd0a54a65"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <script src=\"https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67283242f6cbe06cd0a54a64",
+        "createdAt": "2024-11-04T03:43:24.721Z",
+        "updatedAt": "2024-11-04T03:43:24.721Z",
+        "id": "67283242f6cbe06cd0a54a64"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67283242f6cbe06cd0a54a66",
+        "createdAt": "2024-11-04T03:43:24.721Z",
+        "updatedAt": "2024-11-04T03:43:24.721Z",
+        "id": "67283242f6cbe06cd0a54a66"
+      },
+      {
+        "name": "CANVARAINBG.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/2676be6c-667d-4b5c-b87c-32bad164d8a9.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67283242f6cbe06cd0a54a63",
+        "createdAt": "2024-11-04T03:43:24.721Z",
+        "updatedAt": "2024-11-04T03:43:24.721Z",
+        "id": "67283242f6cbe06cd0a54a63"
+      }
+    ],
+    "createdAt": "2024-11-04T02:32:35.180Z",
+    "updatedAt": "2024-11-04T03:43:24.721Z",
+    "id": "fcWVh5slS"
+  },
+  {
+    "_id": "_k2Df5FJx",
+    "name": "d1",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671eb7f3955c41e236de9dae",
+          "671eb7f3955c41e236de9dad",
+          "671eb7f3955c41e236de9daf"
+        ],
+        "fileType": "folder",
+        "_id": "671eb7f3955c41e236de9db0",
+        "createdAt": "2024-10-28T03:05:39.759Z",
+        "updatedAt": "2024-10-28T03:05:39.759Z",
+        "id": "671eb7f3955c41e236de9db0"
+      },
+      {
+        "name": "sketch.js",
+        "content": "// First Fibonacci number\nlet num1 = 0;\n\n// Second Fibonacci number\nlet num2 = 1;\n\n// Starting horizontal position for the first circle\nlet x = 50;      \n\nfunction setup() {\n  createCanvas(800, 800); \n  background(255);        \n  fill(150, 200, 250);     \n}\n\n\nfunction mousePressed() {\n  // Calculating the next Fibonacci number\n  let circleSize = num1 + num2;\n  \n  // Drawing a circle with this size\n  circle(x, height / 2, circleSize);\n  \n  // Updating the numbers for the next step\n  num1 = num2;\n  num2 = circleSize;\n  \n  // Moving to the right for the next circle\n  x += circleSize+15;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671eb7f3955c41e236de9dad",
+        "createdAt": "2024-10-28T03:05:39.759Z",
+        "updatedAt": "2024-10-28T03:05:39.759Z",
+        "id": "671eb7f3955c41e236de9dad"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671eb7f3955c41e236de9dae",
+        "createdAt": "2024-10-28T03:05:39.759Z",
+        "updatedAt": "2024-10-28T03:05:39.759Z",
+        "id": "671eb7f3955c41e236de9dae"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671eb7f3955c41e236de9daf",
+        "createdAt": "2024-10-28T03:05:39.759Z",
+        "updatedAt": "2024-10-28T03:05:39.759Z",
+        "id": "671eb7f3955c41e236de9daf"
+      }
+    ],
+    "updatedAt": "2024-10-28T03:05:39.759Z",
+    "createdAt": "2024-10-28T02:12:16.281Z",
+    "id": "_k2Df5FJx"
+  },
+  {
+    "_id": "uhMLlPzfy",
+    "name": "d2",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671ef2faab0e3922073fabcf",
+          "671ef2faab0e3922073fabce",
+          "671ef2faab0e3922073fabd0"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "671ef2faab0e3922073fabd1",
+        "createdAt": "2024-10-28T20:32:33.458Z",
+        "updatedAt": "2024-10-28T20:32:33.458Z",
+        "id": "671ef2faab0e3922073fabd1"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let num1 = 0;\nlet num2 = 1;\nlet angle = 0; // initial angle\nlet angleIncrement = 3.14 / 4; // controls the \"tightness\" of the spiral\n\nfunction setup() {\n  createCanvas(800, 800);\n  background(255);\n  fill(150, 200, 250);\n  angleMode(RADIANS);\n}\n\nfunction mousePressed() {\n  let circleSize = num1 + num2;\n  let radius = circleSize * 2; // Increase radius with each step in the sequence\n  let x = width / 2 + cos(angle) * radius;\n  let y = height / 2 + sin(angle) * radius;\n\n  circle(x, y, circleSize);\n  \n  num1 = num2;\n  num2 = circleSize;\n  angle += angleIncrement; // increment the angle for the next circle\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671ef2faab0e3922073fabce",
+        "createdAt": "2024-10-28T20:32:33.458Z",
+        "updatedAt": "2024-10-28T20:32:33.458Z",
+        "id": "671ef2faab0e3922073fabce"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "671ef2faab0e3922073fabcf",
+        "createdAt": "2024-10-28T20:32:33.458Z",
+        "updatedAt": "2024-10-28T20:32:33.458Z",
+        "id": "671ef2faab0e3922073fabcf"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "671ef2faab0e3922073fabd0",
+        "createdAt": "2024-10-28T20:32:33.458Z",
+        "updatedAt": "2024-10-28T20:32:33.458Z",
+        "id": "671ef2faab0e3922073fabd0"
+      }
+    ],
+    "updatedAt": "2024-10-28T20:32:33.458Z",
+    "createdAt": "2024-10-28T02:33:46.213Z",
+    "id": "uhMLlPzfy"
+  },
+  {
+    "_id": "v5jkzKNSn",
+    "name": "draw many shapes",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67165f9c9dab1c65993a0e8c",
+          "67165f9c9dab1c65993a0e8d",
+          "67165f9c9dab1c65993a0e8e"
+        ],
+        "fileType": "folder",
+        "_id": "67165f9c9dab1c65993a0e8b",
+        "createdAt": "2024-10-21T14:06:24.475Z",
+        "updatedAt": "2024-10-21T14:06:24.475Z",
+        "id": "67165f9c9dab1c65993a0e8b"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nAssumptions about counting\n- Starting point, Start counting at 1\n- Stopping point\n- Changing by 1\n- Direction of counting (usually that change is increasing\n- Tempo / speed of counting\n*/\n\nfunction setup() {\n  createCanvas(400, 400);\n  background(220);\n\n  // Parts of a for loop\n  // 1. Starting point\n  // 2. Stopping point\n  // 3. Amount of change\n  \n  for (let counter = 0; counter < 10; counter += 1) {\n    // console.log(counter)\n    let x = random(0, width);\n    let y= ran\n    console.log(x)\n    \n    // draw a square\n    square(x, y, 100)\n  }\n  \n  \n  \n  \n}\n\nfunction draw() {\n  \n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67165f9c9dab1c65993a0e8d",
+        "createdAt": "2024-10-21T14:06:24.475Z",
+        "updatedAt": "2024-10-21T14:06:24.475Z",
+        "id": "67165f9c9dab1c65993a0e8d"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67165f9c9dab1c65993a0e8c",
+        "createdAt": "2024-10-21T14:06:24.475Z",
+        "updatedAt": "2024-10-21T14:06:24.475Z",
+        "id": "67165f9c9dab1c65993a0e8c"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67165f9c9dab1c65993a0e8e",
+        "createdAt": "2024-10-21T14:06:24.475Z",
+        "updatedAt": "2024-10-21T14:06:24.475Z",
+        "id": "67165f9c9dab1c65993a0e8e"
+      }
+    ],
+    "createdAt": "2024-10-21T14:05:16.615Z",
+    "updatedAt": "2024-10-21T14:06:24.475Z",
+    "id": "v5jkzKNSn"
+  },
+  {
+    "_id": "AOSEP5DD3",
+    "name": "final project 2 code",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "672eab1e7fbc0669c2e3bbda",
+          "672eab1e7fbc0669c2e3bbdb",
+          "672eab1e7fbc0669c2e3bbdc",
+          "672eab1e7fbc0669c2e3bbdd"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "672eab1e7fbc0669c2e3bbd9",
+        "createdAt": "2024-11-11T04:36:07.938Z",
+        "updatedAt": "2024-11-11T04:36:07.938Z",
+        "id": "672eab1e7fbc0669c2e3bbd9"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nModified from: \nhttps://editor.p5js.org/enickles/sketches/Zn5En0Sz_\n*/\n\n// instance of p5.webserial library:\nlet serial = new p5.WebSerial();\nlet portButton;\nlet hours = 0;\nlet minutes = 0;\nlet seconds = 10;\nlet bgImage;\nlet alertText = \"Time to water the plant!!!\";\n\n// flag to control the countdown\nlet countdownStarted = false; // Countdown starts only when the button is pressed\n\nfunction preload() {\n  // Loading the background image\n  bgImage = loadImage(\"plant.png\");\n}\n\nfunction setup() {\n  createCanvas(400, 600);\n  // checking to see if serial is available:\n  if (!navigator.serial) {\n    alert(\"WebSerial is not supported in this browser. Try Chrome or MS Edge.\");\n  } else {\n    // setting up serial communication\n    setupSerial();\n  }\n  textSize(48);\n  textAlign(CENTER, BOTTOM);\n  setInterval(updateTime, 1000); // Updating the time every second\n}\n\nfunction draw() {\n  background(bgImage); // Displaying the background image\n\n  // Drawing a rectangle behind the counter\n  fill(0, 150); // Black with transparency for contrast\n  rect(0, height - 80, width, 80);\n\n  fill(255);\n  let timeString = nf(hours, 2) + \":\" + nf(minutes, 2) + \":\" + nf(seconds, 2);\n  text(timeString, width / 2, height - 20);\n  if (hours === 0 && minutes === 0 && seconds === 0) {\n    fill(121, 142, 128);\n    textSize(32);\n    //Displaying the alert text\n    text(alertText, 200, 480);\n  }\n}\n\nfunction updateTime() {\n  // Updating the time if the countdown has started\n  if (countdownStarted) {\n    if (seconds != 0) {\n      seconds--;\n    } else if (seconds <= 0 && minutes != 0) {\n      seconds = 59;\n      minutes--;\n    } else if (minutes <= 0 && hours != 0) {\n      minutes = 59;\n      hours--;\n    } else {\n      // When the countdown reaches 00:00:00, stop it\n      countdownStarted = false;\n      alert(); // Calling the alert function\n    }\n  }\n}\nfunction alert() {\n  if (hours === 0 && minutes === 0 && seconds === 0) {\n    serial.write(\"1\");\n  }\n}\n\n/*------------------------------------*\\\n  Functions for Serial Communication\n\\*------------------------------------*/\n\n// If all goes well from the functions below,\n// read any incoming data as a \"string\"\n// (assumes a newline at the end of it)\n\nfunction serialEvent() {\n  // code to handle the incoming data:\n  let inData = serial.readString().trim();\n\n  // verify that we are getting data:\n  console.log(inData);\n\n  // if there is data AND that data equals a \"1\" string\n  if (inData && inData === \"1\") {\n    // then calling the function to start the countdown since the button has been pressed\n    startCountdown();\n  }\n}\n\n// Function to start the countdown\nfunction startCountdown() {\n  hours = 0;\n  minutes = 0;\n  seconds = 10;\n  countdownStarted = true; // Setting countdown flag to true\n}\n\n/*------------------------------------*\\\n  Serial Communication Setup Functions\n\\*------------------------------------*/\n\nfunction setupSerial() {\n  // check for any ports that are available:\n  serial.getPorts();\n  // if there's no port chosen, choose one:\n  serial.on(\"noport\", makePortButton);\n  // open whatever port is available:\n  serial.on(\"portavailable\", openPort);\n  // handle serial errors:\n  serial.on(\"requesterror\", portError);\n  // handle any incoming serial data:\n  serial.on(\"data\", serialEvent);\n  serial.on(\"close\", makePortButton);\n  // add serial connect/disconnect listeners:\n  navigator.serial.addEventListener(\"connect\", portConnect);\n  navigator.serial.addEventListener(\"disconnect\", portDisconnect);\n}\n\n// if there's no port selected,\n// make a port select button appear:\nfunction makePortButton() {\n  // create and position a port chooser button:\n  portButton = createButton(\"choose port\");\n  portButton.position(10, 10);\n  // give the port button a mousepressed handler:\n  portButton.mousePressed(choosePort);\n}\n\n// make the port selector window appear:\nfunction choosePort() {\n  if (portButton) {\n    portButton.show();\n  }\n  serial.requestPort();\n}\n\n// open the selected port, and make the port\n// button invisible:\nfunction openPort() {\n  // wait for the serial.open promise to return,\n  // then call the initiateSerial function\n  serial.open().then(initiateSerial);\n\n  // once the port opens, let the user know:\n  function initiateSerial() {\n    console.log(\"port open\");\n  }\n  // hide the port button once a port is chosen:\n  if (portButton) {\n    portButton.hide();\n  }\n}\n\n// pop up an alert if there's a port error:\nfunction portError(err) {\n  alert(\"Serial port error: \" + err);\n}\n\n// try to connect if a new serial port\n// gets added (i.e. plugged in via USB):\nfunction portConnect() {\n  console.log(\"port connected\");\n  serial.getPorts();\n}\n\n// if a port is disconnected:\nfunction portDisconnect() {\n  serial.close();\n  console.log(\"port disconnected\");\n}\n\nfunction closePort() {\n  serial.close();\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "672eab1e7fbc0669c2e3bbdc",
+        "createdAt": "2024-11-11T04:36:07.938Z",
+        "updatedAt": "2024-11-11T04:36:07.938Z",
+        "id": "672eab1e7fbc0669c2e3bbdc"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js\"\n      integrity=\"sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <script src=\"https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js\"></script>\n    <script src=\"sketch.js\"></script>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>p5.webserial</title>\n  </head>\n  <body>\n<!--     To see the source files of this sketch,\n    <a\n      href=\"https://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\"\n      target=\"_blank\"\n      >click here</a\n    > -->\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672eab1e7fbc0669c2e3bbda",
+        "createdAt": "2024-11-11T04:36:07.938Z",
+        "updatedAt": "2024-11-11T04:36:07.938Z",
+        "id": "672eab1e7fbc0669c2e3bbda"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672eab1e7fbc0669c2e3bbdd",
+        "createdAt": "2024-11-11T04:36:07.938Z",
+        "updatedAt": "2024-11-11T04:36:07.938Z",
+        "id": "672eab1e7fbc0669c2e3bbdd"
+      },
+      {
+        "name": "plant.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/384024e9-8404-4ef3-b280-0033f1b1afb0.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672eab1e7fbc0669c2e3bbdb",
+        "createdAt": "2024-11-11T04:36:07.938Z",
+        "updatedAt": "2024-11-11T04:36:07.938Z",
+        "id": "672eab1e7fbc0669c2e3bbdb"
+      }
+    ],
+    "createdAt": "2024-11-09T00:21:50.906Z",
+    "updatedAt": "2024-11-11T04:36:07.938Z",
+    "id": "AOSEP5DD3"
+  },
+  {
+    "_id": "EOKDUcy_f",
+    "name": "FinalSketch",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671852e0919bc578d32ab862",
+          "671852c5919bc578d32ab85f",
+          "671852c5919bc578d32ab85e",
+          "671852c5919bc578d32ab860"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "671852c5919bc578d32ab861",
+        "createdAt": "2024-10-23T01:55:32.628Z",
+        "updatedAt": "2024-10-23T01:55:32.628Z",
+        "id": "671852c5919bc578d32ab861"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let drop1 = 180;  \nlet drop2 = 200;  \nlet drop3 = 250;  \nlet drop4 = 210;  \nlet speed = 2;     \nlet bg;            \n\nfunction preload() {\n  // Loading the background image\n  bg = loadImage('CANVARAINBG.png');  \n}\n\nfunction setup() {\n  createCanvas(800, 800);  \n}\n\nfunction draw() {\n  // Setting the background image\n  background(bg);  \n\n  // Changing the raindrops speed\n  if (mouseIsPressed) {\n    // If mouse is pressed -  slow raindrops\n    speed = 2;  \n  } else {\n    // If mouse is not pressed - fast raindrops\n    speed = 17;  \n  }\n\n  fill(51, 153, 255);\n  noStroke();  \n\n  // Drawing and moving each raindrop down the canvas\n  ellipse(200, drop1, 10, 20);  \n  drop1 = drop1 + speed;  \n  if (drop1 > height) {  \n    drop1 = 180;  \n  }\n\n  ellipse(400, drop2, 10, 20);  \n  drop2 = drop2 + speed;  \n  if (drop2 > height) {  \n    drop2 = 200;  \n  }\n\n  ellipse(600, drop3, 10, 20);  \n  drop3 = drop3 + speed;  \n  if (drop3 > height) {  \n    drop3 = 250;  \n  }\n\n  ellipse(700, drop4, 10, 20);  \n  drop4 = drop4 + speed;  \n  if (drop4 > height) {  \n    drop4 = 210;  \n  }\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671852c5919bc578d32ab85e",
+        "createdAt": "2024-10-23T01:55:32.628Z",
+        "updatedAt": "2024-10-23T01:55:32.628Z",
+        "id": "671852c5919bc578d32ab85e"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "671852c5919bc578d32ab85f",
+        "createdAt": "2024-10-23T01:55:32.628Z",
+        "updatedAt": "2024-10-23T01:55:32.628Z",
+        "id": "671852c5919bc578d32ab85f"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "671852c5919bc578d32ab860",
+        "createdAt": "2024-10-23T01:55:32.628Z",
+        "updatedAt": "2024-10-23T01:55:32.628Z",
+        "id": "671852c5919bc578d32ab860"
+      },
+      {
+        "name": "CANVARAINBG.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/40230e7b-4f08-46b8-b951-c7425965ff15.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "671852e0919bc578d32ab862",
+        "createdAt": "2024-10-23T01:55:32.628Z",
+        "updatedAt": "2024-10-23T01:55:32.628Z",
+        "id": "671852e0919bc578d32ab862"
+      }
+    ],
+    "updatedAt": "2024-10-23T01:55:32.628Z",
+    "createdAt": "2024-10-23T01:55:32.628Z",
+    "id": "EOKDUcy_f"
+  },
+  {
+    "_id": "O2IfTtTm4",
+    "name": "FIRST DRAFT6",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67182a7a1ce8450ac318f704",
+          "67182a7a1ce8450ac318f703",
+          "67182a7a1ce8450ac318f705"
+        ],
+        "fileType": "folder",
+        "_id": "67182a7a1ce8450ac318f706",
+        "createdAt": "2024-10-22T23:42:07.397Z",
+        "updatedAt": "2024-10-22T23:42:07.397Z",
+        "id": "67182a7a1ce8450ac318f706"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let dropY = 0;  // Starting position for the raindrop\nlet speed = 2;  // Default speed of the raindrop\n\nfunction setup() {\n  createCanvas(800, 800); // Create a canvas\n}\n\nfunction draw() {\n  background(220); // Light gray background\n\n  // Check mouse position and adjust speed\n  if (mouseX < width / 2) {\n    speed = 8; // Fast raindrop when mouse is on the left half\n  } else {\n    speed = 2; // Slow raindrop when mouse is on the right half\n  }\n\n  // Draw the blue raindrop (oval shape to look like rain)\n  fill(0, 0, 255); // Blue color\n  noStroke(); // No border for the raindrop\n  ellipse(width / 2, dropY, 10, 20); // Raindrop with stretched height (10x20)\n\n  // Move the raindrop down\n  dropY += speed;\n\n  // Reset raindrop position when it goes off the screen\n  if (dropY > height) {\n    dropY = 0;\n  }\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67182a7a1ce8450ac318f703",
+        "createdAt": "2024-10-22T23:42:07.397Z",
+        "updatedAt": "2024-10-22T23:42:07.397Z",
+        "id": "67182a7a1ce8450ac318f703"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67182a7a1ce8450ac318f704",
+        "createdAt": "2024-10-22T23:42:07.397Z",
+        "updatedAt": "2024-10-22T23:42:07.397Z",
+        "id": "67182a7a1ce8450ac318f704"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67182a7a1ce8450ac318f705",
+        "createdAt": "2024-10-22T23:42:07.397Z",
+        "updatedAt": "2024-10-22T23:42:07.397Z",
+        "id": "67182a7a1ce8450ac318f705"
+      }
+    ],
+    "updatedAt": "2024-10-22T23:42:07.397Z",
+    "createdAt": "2024-10-22T22:46:24.368Z",
+    "id": "O2IfTtTm4"
+  },
+  {
+    "_id": "_YJt5FlTF",
+    "name": "Hypnotic volleyball",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671eba1fab0e3922073fabcb",
+          "671eba1fab0e3922073fabca",
+          "671eba1fab0e3922073fabcc"
+        ],
+        "fileType": "folder",
+        "_id": "671eba1fab0e3922073fabcd",
+        "createdAt": "2024-10-28T02:12:08.463Z",
+        "updatedAt": "2024-10-28T02:12:08.463Z",
+        "id": "671eba1fab0e3922073fabcd"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let fib1 = 0;    // First Fibonacci number\nlet fib2 = 1;    // Second Fibonacci number\nlet angle = 0;   // Angle to position each new circle in the spiral\nlet x, y;        // Positions for each circle\n\nfunction setup() {\n  createCanvas(1600, 1600);  // Square canvas to give space for the spiral\n  background(255);         // White background\n  fill(150, 200, 250);     // Soft blue color for circles\n  x = width / 2;           // Start in the center\n  y = height / 2;\n}\n\nfunction draw() {\n  // Nothing happens automatically here, only when the mouse is clicked\n}\n\nfunction mousePressed() {\n  // Calculate the next Fibonacci number\n  let circleSize = fib1 + fib2;\n\n  // Draw a circle at the current position (x, y)\n  ellipse(x, y, circleSize, circleSize);\n\n  // Update Fibonacci numbers for the next step\n  fib1 = fib2;\n  fib2 = circleSize;\n\n  // Move to the next position in a spiral\n  angle += PI / 4;                  // Increase angle to move in a circular direction\n  x += cos(angle) * circleSize+5;      // Update x position using cosine of angle\n  y += sin(angle) * circleSize+5;      // Update y position using sine of angle\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671eba1fab0e3922073fabca",
+        "createdAt": "2024-10-28T02:12:08.463Z",
+        "updatedAt": "2024-10-28T02:12:08.463Z",
+        "id": "671eba1fab0e3922073fabca"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671eba1fab0e3922073fabcb",
+        "createdAt": "2024-10-28T02:12:08.463Z",
+        "updatedAt": "2024-10-28T02:12:08.463Z",
+        "id": "671eba1fab0e3922073fabcb"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671eba1fab0e3922073fabcc",
+        "createdAt": "2024-10-28T02:12:08.463Z",
+        "updatedAt": "2024-10-28T02:12:08.463Z",
+        "id": "671eba1fab0e3922073fabcc"
+      }
+    ],
+    "updatedAt": "2024-10-28T02:12:08.463Z",
+    "createdAt": "2024-10-28T02:12:08.463Z",
+    "id": "_YJt5FlTF"
+  },
+  {
+    "_id": "ihJmk2XGB",
+    "name": "Judicious quark",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "670dc8924e4d55424d3512c9",
+          "670dc8924e4d55424d3512c8",
+          "670dc8924e4d55424d3512ca"
+        ],
+        "fileType": "folder",
+        "_id": "670dc8924e4d55424d3512cb",
+        "createdAt": "2024-10-15T01:48:03.770Z",
+        "updatedAt": "2024-10-15T01:48:03.770Z",
+        "id": "670dc8924e4d55424d3512cb"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(500, 500);  // You can change the canvas size and the design will scale.\n  background(\"#CEC0D8\");\n  angleMode(DEGREES);\n  \n  // ---Dress/shoulders ---\n  \n  //Removing the stroke\n  noStroke();\n  \n  fill(55, 153, 202);\n  \n  //x, y, width, height, radius\n  rect(width * 0.16, height * 0.75, width * 0.66, height * 0.38, 180);\n  \n  //.---hijab ---\n  noStroke();\n  fill(15, 33, 121);\n  arc(width * 0.4, height * 0.56, width * 0.6, height * 0.76, 120, 90, CHORD);\n  arc(width * 0.5, height * 0.84, width * 0.4, height * 0.5, 120, 90, CHORD); \n  \n  // ---face---\n  noStroke();\n  fill(230, 217, 213);\n  ellipse(width * 0.44, height * 0.53, width * 0.4, height * 0.48);  \n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "670dc8924e4d55424d3512c8",
+        "createdAt": "2024-10-15T01:48:03.770Z",
+        "updatedAt": "2024-10-15T01:48:03.770Z",
+        "id": "670dc8924e4d55424d3512c8"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670dc8924e4d55424d3512c9",
+        "createdAt": "2024-10-15T01:48:03.770Z",
+        "updatedAt": "2024-10-15T01:48:03.770Z",
+        "id": "670dc8924e4d55424d3512c9"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "670dc8924e4d55424d3512ca",
+        "createdAt": "2024-10-15T01:48:03.770Z",
+        "updatedAt": "2024-10-15T01:48:03.770Z",
+        "id": "670dc8924e4d55424d3512ca"
+      }
+    ],
+    "updatedAt": "2024-10-15T01:48:03.770Z",
+    "createdAt": "2024-10-15T01:48:03.770Z",
+    "id": "ihJmk2XGB"
+  },
+  {
+    "_id": "D1vz0pYDO",
+    "name": "myRectangle",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "6703f58f7108d02718d71cf7",
+          "6703f58f7108d02718d71cf6",
+          "6703f58f7108d02718d71cf8"
+        ],
+        "fileType": "folder",
+        "_id": "6703f58f7108d02718d71cf9",
+        "createdAt": "2024-10-07T15:42:26.067Z",
+        "updatedAt": "2024-10-07T15:42:26.067Z",
+        "id": "6703f58f7108d02718d71cf9"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(700, 400);\n}\n\nfunction draw() {\n  //0-255 grayscale\n  background(120);\n  \n  \n  \n  //stroke(10, 100, 100);\n\n  //strokeWeight(3);\n  \n  noStroke();\n  \n  fill(\"turquoise\");\n\n  //x, y, width, height, radius\n  rect(150, 100, 100, 100, 0);\n  \n  textAlign(CENTER);\n  fill(255, 255, 255);\n  text(\"VLERA\", 197, 155);\n  //red, green, blue\n  //fill(255, 255,0);\n  \n  //x,y, diamter\n  //circle(150, 100, 100)\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "6703f58f7108d02718d71cf6",
+        "createdAt": "2024-10-07T15:42:26.067Z",
+        "updatedAt": "2024-10-07T15:42:26.067Z",
+        "id": "6703f58f7108d02718d71cf6"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "6703f58f7108d02718d71cf7",
+        "createdAt": "2024-10-07T15:42:26.067Z",
+        "updatedAt": "2024-10-07T15:42:26.067Z",
+        "id": "6703f58f7108d02718d71cf7"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "6703f58f7108d02718d71cf8",
+        "createdAt": "2024-10-07T15:42:26.067Z",
+        "updatedAt": "2024-10-07T15:42:26.067Z",
+        "id": "6703f58f7108d02718d71cf8"
+      }
+    ],
+    "updatedAt": "2024-10-07T15:42:26.067Z",
+    "createdAt": "2024-10-07T15:32:25.581Z",
+    "id": "D1vz0pYDO"
+  },
+  {
+    "_id": "Cp59pE6Tc",
+    "name": "Peppermint cyclamen",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67185186919bc578d32ab85d",
+          "67185179919bc578d32ab85a",
+          "67185179919bc578d32ab859",
+          "67185179919bc578d32ab85b"
+        ],
+        "fileType": "folder",
+        "_id": "67185179919bc578d32ab85c",
+        "createdAt": "2024-10-23T01:34:59.744Z",
+        "updatedAt": "2024-10-23T01:34:59.744Z",
+        "id": "67185179919bc578d32ab85c"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let dropY1 = 300;  // Starting position of raindrop 1 inside the canvas\nlet dropY2 = 250;  // Starting position of raindrop 2 inside the canvas\nlet dropY3 = 200;  // Starting position of raindrop 3 inside the canvas\nlet dropY4 = 150;  // Starting position of raindrop 4 inside the canvas\nlet speed = 2;     // Initial speed of raindrops\nlet bg;            // Variable for background image\n\n// Loading the image\nfunction preload() {\n  bg = loadImage('CANVARAINBG.png');  // Load the background image\n}\n\n// Set up the canvas\nfunction setup() {\n  createCanvas(800, 800);  // Create a canvas of 800x800 pixels\n}\n\n// Draw the raindrops on the canvas\nfunction draw() {\n  background(bg);  // Set the background image\n\n  // Change speed depending on mouse position\n  if (mouseX < width / 2) {\n    speed = 8;  // Fast raindrops on the left half\n  } else {\n    speed = 2;  // Slow raindrops on the right half\n  }\n\n  // Set the raindrop color to blue\n  fill(51, 153, 255);\n  noStroke();  // No outline around the raindrops\n\n  // Draw and move each raindrop down the canvas\n  ellipse(200, dropY1, 10, 20);  // Draw raindrop 1\n  dropY1 = dropY1 + speed;  // Move raindrop 1\n  if (dropY1 > height) {  \n    dropY1 = 0;  // Reset to the top if it goes off the canvas\n  }\n\n  ellipse(400, dropY2, 10, 20);  // Draw raindrop 2\n  dropY2 = dropY2 + speed;  // Move raindrop 2\n  if (dropY2 > height) {  \n    dropY2 = 0;  // Reset to the top\n  }\n\n  ellipse(600, dropY3, 10, 20);  // Draw raindrop 3\n  dropY3 = dropY3 + speed;  // Move raindrop 3\n  if (dropY3 > height) {  \n    dropY3 = 0;  // Reset to the top\n  }\n\n  ellipse(700, dropY4, 10, 20);  // Draw raindrop 4\n  dropY4 = dropY4 + speed;  // Move raindrop 4\n  if (dropY4 > height) {  \n    dropY4 = 0;  // Reset to the top\n  }\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67185179919bc578d32ab859",
+        "createdAt": "2024-10-23T01:34:59.744Z",
+        "updatedAt": "2024-10-23T01:34:59.744Z",
+        "id": "67185179919bc578d32ab859"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67185179919bc578d32ab85a",
+        "createdAt": "2024-10-23T01:34:59.744Z",
+        "updatedAt": "2024-10-23T01:34:59.744Z",
+        "id": "67185179919bc578d32ab85a"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67185179919bc578d32ab85b",
+        "createdAt": "2024-10-23T01:34:59.744Z",
+        "updatedAt": "2024-10-23T01:34:59.744Z",
+        "id": "67185179919bc578d32ab85b"
+      },
+      {
+        "name": "CANVARAINBG.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/186c659c-f3a6-4cc6-acec-00cd425d7228.png",
+        "children": [],
+        "fileType": "file",
+        "_id": "67185186919bc578d32ab85d",
+        "createdAt": "2024-10-23T01:34:59.744Z",
+        "updatedAt": "2024-10-23T01:34:59.744Z",
+        "id": "67185186919bc578d32ab85d"
+      }
+    ],
+    "updatedAt": "2024-10-23T01:34:59.744Z",
+    "createdAt": "2024-10-23T01:34:59.744Z",
+    "id": "Cp59pE6Tc"
+  },
+  {
+    "_id": "524RrnDw4",
+    "name": "project 2",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "672e7a9f89b15a6466c9bcd5",
+          "672e7a9f89b15a6466c9bcd6",
+          "672e7a9f89b15a6466c9bcd7"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "672e7a9f89b15a6466c9bcd4",
+        "createdAt": "2024-11-08T20:55:08.353Z",
+        "updatedAt": "2024-11-08T20:55:08.353Z",
+        "id": "672e7a9f89b15a6466c9bcd4"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nNYU IMA Creative Computing\nEllen Nickles\n\nSerial read using p5.webserial, one value\n\nModified from sources: \nhttps://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\n\nhttps://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/\n*/\n\n// instance of p5.webserial library:\nlet serial = new p5.WebSerial();\n// port chooser button:\nlet portButton;\n\n// Part 3\n// declare and initialize a variable for the background color:\nlet bgCol = 0;\n\n// Part 4\nlet d = 50; \n\nfunction setup() {\n  createCanvas(400, 400);\n  // check to see if serial is available:\n  if (!navigator.serial) {\n    alert(\"WebSerial is not supported in this browser. Try Chrome or MS Edge.\");\n  } else {\n    // set up serial communication\n    setupSerial();\n  }\n}\n\nfunction draw() {\n  // Part 3\n  // use the variable for the background color instead of hardcoding a number:\n  background(bgCol)\n  \n  circle(200, 200, d)\n}\n\n// Part 3\n// write a function definition to generate a random background color:\nfunction updateBackground() {\n  let r = random(0, 255);\n  let g = random(0, 255);\n  let b = random(0, 255);\n  bgCol = color(r, g, b);\n}\n\nfunction growCircle(){\n  d += 25;\n}\n\n\n/*------------------------------------*\\\n  Functions for Serial Communication\n\\*------------------------------------*/\n\n// If all goes well from the functions below,\n// read any incoming data as a \"string\"\n// (assumes a newline at the end of it)\n\nfunction serialEvent() {\n  // Part 1\n  // code to handle the incoming data:\n  let inData = serial.readString();\n  \n  // verify that you are getting data:\n  console.log(inData)\n\n  // Part 2\n  // if there is data AND that data equals a 1 string\n  if (inData && inData == 1) {\n    // Part 3\n    // then call a function to update the background:\n    updateBackground();\n    growCircle();\n  }\n\n    \n}\n\n\nfunction setupSerial() {\n  // check for any ports that are available:\n  serial.getPorts();\n  // if there's no port chosen, choose one:\n  serial.on(\"noport\", makePortButton);\n  // open whatever port is available:\n  serial.on(\"portavailable\", openPort);\n  // handle serial errors:\n  serial.on(\"requesterror\", portError);\n  // handle any incoming serial data:\n  serial.on(\"data\", serialEvent);\n  serial.on(\"close\", makePortButton);\n  // add serial connect/disconnect listeners:\n  navigator.serial.addEventListener(\"connect\", portConnect);\n  navigator.serial.addEventListener(\"disconnect\", portDisconnect);\n}\n\n// if there's no port selected,\n// make a port select button appear:\nfunction makePortButton() {\n  // create and position a port chooser button:\n  portButton = createButton(\"choose port\");\n  portButton.position(10, 10);\n  // give the port button a mousepressed handler:\n  portButton.mousePressed(choosePort);\n}\n\n// make the port selector window appear:\nfunction choosePort() {\n  if (portButton) {\n    portButton.show();\n  }\n  serial.requestPort();\n}\n\n// open the selected port, and make the port\n// button invisible:\n// open the selected port, and make the port\n// button invisible:\nfunction openPort() {\n  // wait for the serial.open promise to return,\n  // then call the initiateSerial function\n  serial.open().then(initiateSerial);\n\n  // once the port opens, let the user know:\n  function initiateSerial() {\n    console.log(\"port open\");\n  }\n  // hide the port button once a port is chosen:\n  if (portButton) {\n    portButton.hide();\n  }\n}\n\n// pop up an alert if there's a port error:\nfunction portError(err) {\n  alert(\"Serial port error: \" + err);\n}\n\n// try to connect if a new serial port\n// gets added (i.e. plugged in via USB):\nfunction portConnect() {\n  console.log(\"port connected\");\n  serial.getPorts();\n}\n\n// if a port is disconnected:\nfunction portDisconnect() {\n  serial.close();\n  console.log(\"port disconnected\");\n}\n\nfunction closePort() {\n  serial.close();\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "672e7a9f89b15a6466c9bcd6",
+        "createdAt": "2024-11-08T20:55:08.353Z",
+        "updatedAt": "2024-11-08T20:55:08.353Z",
+        "id": "672e7a9f89b15a6466c9bcd6"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js\"\n      integrity=\"sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <script src=\"https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js\"></script>\n    <script src=\"sketch.js\"></script>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>p5.webserial</title>\n  </head>\n  <body>\n<!--     To see the source files of this sketch,\n    <a\n      href=\"https://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\"\n      target=\"_blank\"\n      >click here</a\n    > -->\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e7a9f89b15a6466c9bcd5",
+        "createdAt": "2024-11-08T20:55:08.353Z",
+        "updatedAt": "2024-11-08T20:55:08.353Z",
+        "id": "672e7a9f89b15a6466c9bcd5"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e7a9f89b15a6466c9bcd7",
+        "createdAt": "2024-11-08T20:55:08.353Z",
+        "updatedAt": "2024-11-08T20:55:08.353Z",
+        "id": "672e7a9f89b15a6466c9bcd7"
+      }
+    ],
+    "createdAt": "2024-11-08T20:54:55.394Z",
+    "updatedAt": "2024-11-08T20:55:08.353Z",
+    "id": "524RrnDw4"
+  },
+  {
+    "_id": "eodRuVhzD",
+    "name": "project2FINAL",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "672e7bc580b52c4e21058908",
+          "672e829207b91a8c716691c5",
+          "672e7bc580b52c4e21058909",
+          "672e7bc580b52c4e2105890a"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "672e7bc580b52c4e21058907",
+        "createdAt": "2024-11-08T21:28:55.504Z",
+        "updatedAt": "2024-11-08T21:28:55.504Z",
+        "id": "672e7bc580b52c4e21058907"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nNYU IMA Creative Computing\nEllen Nickles\n\nSerial read using p5.webserial, one value\n\nModified from sources: \nhttps://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\n\nhttps://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/\n*/\n\n// instance of p5.webserial library:\nlet serial = new p5.WebSerial();\n// port chooser button:\nlet portButton;\n\n\nfunction preload() {\n  // Loading the background image\n  bgImage = loadImage(\"plant.png\"); \n}\n\nfunction setup() {\n  createCanvas(400, 400);\n  // check to see if serial is available:\n  if (!navigator.serial) {\n    alert(\"WebSerial is not supported in this browser. Try Chrome or MS Edge.\");\n  } else {\n    // set up serial communication\n    setupSerial();\n  }\n  textSize(48);\n  textAlign(CENTER, BOTTOM);\n  setInterval(updateTime, 1000); // UpdatING the time every second\n\n}\n\nfunction draw() {\n  background(bgImage); // Displaying the background image\n\n  // Drawing a rectangle behind the counter\n  fill(0, 150); // Black with transparency for contrast\n  rect(0, height - 80, width, 80);\n\n  fill(255); \n  let timeString = nf(hours, 2) + \":\" + nf(minutes, 2) + \":\" + nf(seconds, 2);\n  text(timeString, width / 2, height - 20);\n}\n\n// Part 3\nfunction updateTime() {\n  seconds++;\n  \n  if (seconds >= 60) {\n    seconds = 0;\n    minutes++;\n  }\n  \n  if (minutes >= 60) {\n    minutes = 0;\n    hours++;\n  }\n}\n\n\n\n/*------------------------------------*\\\n  Functions for Serial Communication\n\\*------------------------------------*/\n\n// If all goes well from the functions below,\n// read any incoming data as a \"string\"\n// (assumes a newline at the end of it)\n\nfunction serialEvent() {\n  // Part 1\n  // code to handle the incoming data:\n  let inData = serial.readString();\n  \n  // verify that you are getting data:\n  console.log(inData)\n\n  // Part 2\n  // if there is data AND that data equals a 1 string\n  if (inData && inData == 1) {\n    // Part 3\n    // then call the function to start the countdown since the button has been pressed\n  \n  }\n\n    \n}\n\n\nfunction setupSerial() {\n  // check for any ports that are available:\n  serial.getPorts();\n  // if there's no port chosen, choose one:\n  serial.on(\"noport\", makePortButton);\n  // open whatever port is available:\n  serial.on(\"portavailable\", openPort);\n  // handle serial errors:\n  serial.on(\"requesterror\", portError);\n  // handle any incoming serial data:\n  serial.on(\"data\", serialEvent);\n  serial.on(\"close\", makePortButton);\n  // add serial connect/disconnect listeners:\n  navigator.serial.addEventListener(\"connect\", portConnect);\n  navigator.serial.addEventListener(\"disconnect\", portDisconnect);\n}\n\n// if there's no port selected,\n// make a port select button appear:\nfunction makePortButton() {\n  // create and position a port chooser button:\n  portButton = createButton(\"choose port\");\n  portButton.position(10, 10);\n  // give the port button a mousepressed handler:\n  portButton.mousePressed(choosePort);\n}\n\n// make the port selector window appear:\nfunction choosePort() {\n  if (portButton) {\n    portButton.show();\n  }\n  serial.requestPort();\n}\n\n// open the selected port, and make the port\n// button invisible:\n// open the selected port, and make the port\n// button invisible:\nfunction openPort() {\n  // wait for the serial.open promise to return,\n  // then call the initiateSerial function\n  serial.open().then(initiateSerial);\n\n  // once the port opens, let the user know:\n  function initiateSerial() {\n    console.log(\"port open\");\n  }\n  // hide the port button once a port is chosen:\n  if (portButton) {\n    portButton.hide();\n  }\n}\n\n// pop up an alert if there's a port error:\nfunction portError(err) {\n  alert(\"Serial port error: \" + err);\n}\n\n// try to connect if a new serial port\n// gets added (i.e. plugged in via USB):\nfunction portConnect() {\n  console.log(\"port connected\");\n  serial.getPorts();\n}\n\n// if a port is disconnected:\nfunction portDisconnect() {\n  serial.close();\n  console.log(\"port disconnected\");\n}\n\nfunction closePort() {\n  serial.close();\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "672e7bc580b52c4e21058909",
+        "createdAt": "2024-11-08T21:28:55.504Z",
+        "updatedAt": "2024-11-08T21:28:55.504Z",
+        "id": "672e7bc580b52c4e21058909"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js\"\n      integrity=\"sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <script src=\"https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js\"></script>\n    <script src=\"sketch.js\"></script>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>p5.webserial</title>\n  </head>\n  <body>\n<!--     To see the source files of this sketch,\n    <a\n      href=\"https://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\"\n      target=\"_blank\"\n      >click here</a\n    > -->\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e7bc580b52c4e21058908",
+        "createdAt": "2024-11-08T21:28:55.504Z",
+        "updatedAt": "2024-11-08T21:28:55.504Z",
+        "id": "672e7bc580b52c4e21058908"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e7bc580b52c4e2105890a",
+        "createdAt": "2024-11-08T21:28:55.504Z",
+        "updatedAt": "2024-11-08T21:28:55.504Z",
+        "id": "672e7bc580b52c4e2105890a"
+      },
+      {
+        "name": "plant.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/d1a7d691-08ee-4781-aa5c-a682945c305f.png",
+        "children": [],
+        "fileType": "file",
+        "_id": "672e829207b91a8c716691c5",
+        "createdAt": "2024-11-08T21:28:55.504Z",
+        "updatedAt": "2024-11-08T21:28:55.504Z",
+        "id": "672e829207b91a8c716691c5"
+      }
+    ],
+    "createdAt": "2024-11-08T20:59:49.938Z",
+    "updatedAt": "2024-11-08T21:28:55.504Z",
+    "id": "eodRuVhzD"
+  },
+  {
+    "_id": "GebpAMrJO",
+    "name": "project2FINAL stage1 BUTTON",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "672e842980b52c4e2105890c",
+          "672e842980b52c4e2105890d",
+          "672e842980b52c4e2105890e",
+          "672e842980b52c4e2105890f"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "672e842980b52c4e2105890b",
+        "createdAt": "2024-11-08T21:39:48.965Z",
+        "updatedAt": "2024-11-08T21:39:48.965Z",
+        "id": "672e842980b52c4e2105890b"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nNYU IMA Creative Computing\nEllen Nickles\n\nSerial read using p5.webserial, one value\n\nModified from sources: \nhttps://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\n\nhttps://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/\n*/\n\n// instance of p5.webserial library:\nlet serial = new p5.WebSerial();\n// port chooser button:\nlet portButton;\nlet hours = 0;\nlet minutes = 0;\nlet seconds = 0;\nlet bgImage;\n\n// flag to control the countdown\nlet countdownStarted = false; // Countdown should only start when button is pressed\n\nfunction preload() {\n  // Loading the background image\n  bgImage = loadImage(\"plant.png\"); \n}\n\nfunction setup() {\n  createCanvas(400, 600);\n  // check to see if serial is available:\n  if (!navigator.serial) {\n    alert(\"WebSerial is not supported in this browser. Try Chrome or MS Edge.\");\n  } else {\n    // set up serial communication\n    setupSerial();\n  }\n  textSize(48);\n  textAlign(CENTER, BOTTOM);\n  setInterval(updateTime, 1000); // UpdatING the time every second\n\n}\n\nfunction draw() {\n  background(bgImage); // Displaying the background image\n\n  // Drawing a rectangle behind the counter\n  fill(0, 150); // Black with transparency for contrast\n  rect(0, height - 80, width, 80);\n\n  fill(255); \n  let timeString = nf(hours, 2) + \":\" + nf(minutes, 2) + \":\" + nf(seconds, 2);\n  text(timeString, width / 2, height - 20);\n}\n\n// Part 3\nfunction updateTime() {\n  // Only update the time if the countdown has started\n  if (countdownStarted) {\n    seconds++;\n    \n    if (seconds >= 60) {\n      seconds = 0;\n      minutes++;\n    }\n    \n    if (minutes >= 60) {\n      minutes = 0;\n      hours++;\n    }\n  }\n}\n\n/*------------------------------------*\\\n  Functions for Serial Communication\n\\*------------------------------------*/\n\n// If all goes well from the functions below,\n// read any incoming data as a \"string\"\n// (assumes a newline at the end of it)\n\nfunction serialEvent() {\n  // Part 1\n  // code to handle the incoming data:\n  let inData = serial.readString().trim();\n  \n  // verify that you are getting data:\n  console.log(inData);\n\n  // Part 2\n  // if there is data AND that data equals a \"1\" string\n  if (inData && inData === \"1\") {\n    // Part 3\n    // then call the function to start the countdown since the button has been pressed\n    startCountdown();\n  }\n}\n\n// Function to start the countdown\nfunction startCountdown() {\n  hours = 0;\n  minutes = 0;\n  seconds = 0;\n  countdownStarted = true; // Set countdown flag to true\n}\n\n/*------------------------------------*\\\n  Serial Communication Setup Functions\n\\*------------------------------------*/\n\nfunction setupSerial() {\n  // check for any ports that are available:\n  serial.getPorts();\n  // if there's no port chosen, choose one:\n  serial.on(\"noport\", makePortButton);\n  // open whatever port is available:\n  serial.on(\"portavailable\", openPort);\n  // handle serial errors:\n  serial.on(\"requesterror\", portError);\n  // handle any incoming serial data:\n  serial.on(\"data\", serialEvent);\n  serial.on(\"close\", makePortButton);\n  // add serial connect/disconnect listeners:\n  navigator.serial.addEventListener(\"connect\", portConnect);\n  navigator.serial.addEventListener(\"disconnect\", portDisconnect);\n}\n\n// if there's no port selected,\n// make a port select button appear:\nfunction makePortButton() {\n  // create and position a port chooser button:\n  portButton = createButton(\"choose port\");\n  portButton.position(10, 10);\n  // give the port button a mousepressed handler:\n  portButton.mousePressed(choosePort);\n}\n\n// make the port selector window appear:\nfunction choosePort() {\n  if (portButton) {\n    portButton.show();\n  }\n  serial.requestPort();\n}\n\n// open the selected port, and make the port\n// button invisible:\nfunction openPort() {\n  // wait for the serial.open promise to return,\n  // then call the initiateSerial function\n  serial.open().then(initiateSerial);\n\n  // once the port opens, let the user know:\n  function initiateSerial() {\n    console.log(\"port open\");\n  }\n  // hide the port button once a port is chosen:\n  if (portButton) {\n    portButton.hide();\n  }\n}\n\n// pop up an alert if there's a port error:\nfunction portError(err) {\n  alert(\"Serial port error: \" + err);\n}\n\n// try to connect if a new serial port\n// gets added (i.e. plugged in via USB):\nfunction portConnect() {\n  console.log(\"port connected\");\n  serial.getPorts();\n}\n\n// if a port is disconnected:\nfunction portDisconnect() {\n  serial.close();\n  console.log(\"port disconnected\");\n}\n\nfunction closePort() {\n  serial.close();\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "672e842980b52c4e2105890e",
+        "createdAt": "2024-11-08T21:39:48.965Z",
+        "updatedAt": "2024-11-08T21:39:48.965Z",
+        "id": "672e842980b52c4e2105890e"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js\"\n      integrity=\"sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <script src=\"https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js\"></script>\n    <script src=\"sketch.js\"></script>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>p5.webserial</title>\n  </head>\n  <body>\n<!--     To see the source files of this sketch,\n    <a\n      href=\"https://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\"\n      target=\"_blank\"\n      >click here</a\n    > -->\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e842980b52c4e2105890c",
+        "createdAt": "2024-11-08T21:39:48.965Z",
+        "updatedAt": "2024-11-08T21:39:48.965Z",
+        "id": "672e842980b52c4e2105890c"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e842980b52c4e2105890f",
+        "createdAt": "2024-11-08T21:39:48.965Z",
+        "updatedAt": "2024-11-08T21:39:48.965Z",
+        "id": "672e842980b52c4e2105890f"
+      },
+      {
+        "name": "plant.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/8a9ade38-558b-4092-83c0-299a536f9c46.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e842980b52c4e2105890d",
+        "createdAt": "2024-11-08T21:39:48.965Z",
+        "updatedAt": "2024-11-08T21:39:48.965Z",
+        "id": "672e842980b52c4e2105890d"
+      }
+    ],
+    "createdAt": "2024-11-08T21:35:37.953Z",
+    "updatedAt": "2024-11-08T21:39:48.965Z",
+    "id": "GebpAMrJO"
+  },
+  {
+    "_id": "K8a7rC9YH",
+    "name": "project2FINAL stage2 COUNTDOWN",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "672e852b80b52c4e21058911",
+          "672e852b80b52c4e21058912",
+          "672e852b80b52c4e21058913",
+          "672e852b80b52c4e21058914"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "672e852b80b52c4e21058910",
+        "createdAt": "2024-11-11T01:24:29.776Z",
+        "updatedAt": "2024-11-11T01:24:29.776Z",
+        "id": "672e852b80b52c4e21058910"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\n\nModified from:\nhttps://docs.google.com/document/d/1G50FuRm1apaRAf7Q2AIk0qgvbMIU7r-BPP3JKyjX8kg/edit?tab=t.0\n\n*/\n\n// instance of p5.webserial library:\nlet serial = new p5.WebSerial();\n// port chooser button:\n\n// port chooser button:\nlet portButton;\nlet hours = 0;\nlet minutes = 0;\nlet seconds = 10;\nlet bgImage;\nlet alertText = 'Time to water the plants!!!'\n\n// flag to control the countdown\nlet countdownStarted = false; // Countdown should only start when button is pressed\nlet showAlert = false; // Flag to control displaying alert text\n\nfunction preload() {\n  // Loading the background image\n  bgImage = loadImage(\"plant.png\"); \n}\n\nfunction setup() {\n  createCanvas(400, 600);\n  // check to see if serial is available:\n  if (!navigator.serial) {\n    alert(\"WebSerial is not supported in this browser. Try Chrome or MS Edge.\");\n  } else {\n    // set up serial communication\n    setupSerial();\n  }\n  textSize(48);\n  textAlign(CENTER, BOTTOM);\n  setInterval(updateTime, 1000); // Updating the time every second\n}\n\nfunction draw() {\n  background(bgImage); // Displaying the background image\n\n  // Drawing a rectangle behind the counter or alert text\n  fill(0, 150); // Black with transparency for contrast\n  rect(0, height - 80, width, 80);\n\n  fill(255); \n  if (showAlert) {\n    // Display the alert text when countdown reaches 00:00:00\n    text(alertText, width / 2, height - 20);\n  } else {\n    // Display the countdown timer if alert is not shown\n    let timeString = nf(hours, 2) + \":\" + nf(minutes, 2) + \":\" + nf(seconds, 2);\n    text(timeString, width / 2, height - 20);\n  }\n}\n\n// Part 3\nfunction updateTime() {\n  // Updating the time if the countdown has started\n  if (countdownStarted && !showAlert) {\n    if (seconds > 0) {\n      seconds--;\n    } else if (minutes > 0) {\n      seconds = 59;\n      minutes--;\n    } else if (hours > 0) {\n      minutes = 59;\n      seconds = 59;\n      hours--;\n    } else {\n      // When countdown reaches 00:00:00\n      countdownStarted = false;\n      showAlert = true; // Set flag to show alert text\n      serial.write(\"1\"); // Sending signal to Arduino\n    }\n  }\n}\n\n/*------------------------------------*\\\n  Functions for Serial Communication\n\\*------------------------------------*/\n\nfunction serialEvent() {\n  // Part 1\n  // code to handle the incoming data:\n  let inData = serial.readString().trim();\n  \n  // verify that you are getting data:\n  console.log(\"Received from Arduino:\", inData);\n\n  // Part 2\n  // if there is data AND that data equals a \"1\" string\n  if (inData && inData === \"1\") {\n    // Part 3\n    // then call the function to start the countdown since the button has been pressed\n    startCountdown();\n  }\n}\n\n// Function to start the countdown\nfunction startCountdown() {\n  // Reset timer values for a new countdown\n  hours = 0;\n  minutes = 0;\n  seconds = 10;\n  countdownStarted = true; // Set countdown flag to true\n  showAlert = false; // Reset the alert display flag\n  console.log(\"Countdown started\"); // Debugging log\n}\n\n/*------------------------------------*\\\n  Serial Communication Setup Functions\n\\*------------------------------------*/\n\nfunction setupSerial() {\n  // check for any ports that are available:\n  serial.getPorts();\n  // if there's no port chosen, choose one:\n  serial.on(\"noport\", makePortButton);\n  // open whatever port is available:\n  serial.on(\"portavailable\", openPort);\n  // handle serial errors:\n  serial.on(\"requesterror\", portError);\n  // handle any incoming serial data:\n  serial.on(\"data\", serialEvent);\n  serial.on(\"close\", makePortButton);\n  // add serial connect/disconnect listeners:\n  navigator.serial.addEventListener(\"connect\", portConnect);\n  navigator.serial.addEventListener(\"disconnect\", portDisconnect);\n}\n\n// if there's no port selected,\n// make a port select button appear:\nfunction makePortButton() {\n  // create and position a port chooser button:\n  portButton = createButton(\"choose port\");\n  portButton.position(10, 10);\n  // give the port button a mousepressed handler:\n  portButton.mousePressed(choosePort);\n}\n\n// make the port selector window appear:\nfunction choosePort() {\n  if (portButton) {\n    portButton.show();\n  }\n  serial.requestPort();\n}\n\n// open the selected port, and make the port\n// button invisible:\nfunction openPort() {\n  // wait for the serial.open promise to return,\n  // then call the initiateSerial function\n  serial.open().then(initiateSerial);\n\n  // once the port opens, let the user know:\n  function initiateSerial() {\n    console.log(\"port open\");\n  }\n  // hide the port button once a port is chosen:\n  if (portButton) {\n    portButton.hide();\n  }\n}\n\n// pop up an alert if there's a port error:\nfunction portError(err) {\n  alert(\"Serial port error: \" + err);\n}\n\n// try to connect if a new serial port\n// gets added (i.e. plugged in via USB):\nfunction portConnect() {\n  console.log(\"port connected\");\n  serial.getPorts();\n}\n\n// if a port is disconnected:\nfunction portDisconnect() {\n  serial.close();\n  console.log(\"port disconnected\");\n}\n\nfunction closePort() {\n  serial.close();\n}\n\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "672e852b80b52c4e21058913",
+        "createdAt": "2024-11-11T01:24:29.776Z",
+        "updatedAt": "2024-11-11T01:24:29.776Z",
+        "id": "672e852b80b52c4e21058913"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js\"\n      integrity=\"sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <script src=\"https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js\"></script>\n    <script src=\"sketch.js\"></script>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>p5.webserial</title>\n  </head>\n  <body>\n<!--     To see the source files of this sketch,\n    <a\n      href=\"https://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\"\n      target=\"_blank\"\n      >click here</a\n    > -->\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e852b80b52c4e21058911",
+        "createdAt": "2024-11-11T01:24:29.776Z",
+        "updatedAt": "2024-11-11T01:24:29.776Z",
+        "id": "672e852b80b52c4e21058911"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e852b80b52c4e21058914",
+        "createdAt": "2024-11-11T01:24:29.776Z",
+        "updatedAt": "2024-11-11T01:24:29.776Z",
+        "id": "672e852b80b52c4e21058914"
+      },
+      {
+        "name": "plant.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/4161a7e1-a551-4d33-9940-dbe9115a9912.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e852b80b52c4e21058912",
+        "createdAt": "2024-11-11T01:24:29.776Z",
+        "updatedAt": "2024-11-11T01:24:29.776Z",
+        "id": "672e852b80b52c4e21058912"
+      }
+    ],
+    "createdAt": "2024-11-08T21:39:55.900Z",
+    "updatedAt": "2024-11-11T01:24:29.776Z",
+    "id": "K8a7rC9YH"
+  },
+  {
+    "_id": "TKQnJuSAS",
+    "name": "project2FINAL stage2 COUNTDOWN copy",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "672e983f877749636ac07656",
+          "672e983f877749636ac07657",
+          "672e983f877749636ac07658",
+          "672e983f877749636ac07659"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "672e983f877749636ac07655",
+        "createdAt": "2024-11-08T23:05:33.227Z",
+        "updatedAt": "2024-11-08T23:05:33.227Z",
+        "id": "672e983f877749636ac07655"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nNYU IMA Creative Computing\nEllen Nickles\n\nSerial read using p5.webserial, one value\n\nModified from sources: \nhttps://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\n\nhttps://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/\n*/\n\n// instance of p5.webserial library:\nlet serial = new p5.WebSerial();\n// port chooser button:\n\n// port chooser button:\nlet portButton;\nlet hours = 0;\nlet minutes = 0;\nlet seconds = 10;\nlet bgImage;\nlet alertText = 'Time to water the plants!!!'\n\n// flag to control the countdown\nlet countdownStarted = false; // Countdown should only start when button is pressed\nlet showAlert = false; // Flag to control displaying alert text\n\nfunction preload() {\n  // Loading the background image\n  bgImage = loadImage(\"plant.png\"); \n}\n\nfunction setup() {\n  createCanvas(400, 600);\n  // check to see if serial is available:\n  if (!navigator.serial) {\n    alert(\"WebSerial is not supported in this browser. Try Chrome or MS Edge.\");\n  } else {\n    // set up serial communication\n    setupSerial();\n  }\n  textSize(48);\n  textAlign(CENTER, BOTTOM);\n  setInterval(updateTime, 1000); // Updating the time every second\n}\n\nfunction draw() {\n  background(bgImage); // Displaying the background image\n\n  // Drawing a rectangle behind the counter or alert text\n  fill(0, 150); // Black with transparency for contrast\n  rect(0, height - 80, width, 80);\n\n  fill(255); \n  if (showAlert) {\n    // Display the alert text when countdown reaches 00:00:00\n    text(alertText, width / 2, height - 20);\n  } else {\n    // Display the countdown timer if alert is not shown\n    let timeString = nf(hours, 2) + \":\" + nf(minutes, 2) + \":\" + nf(seconds, 2);\n    text(timeString, width / 2, height - 20);\n  }\n}\n\n// Part 3\nfunction updateTime() {\n  // Updating the time if the countdown has started\n  if (countdownStarted && !showAlert) {\n    if (seconds > 0) {\n      seconds--;\n    } else if (minutes > 0) {\n      seconds = 59;\n      minutes--;\n    } else if (hours > 0) {\n      minutes = 59;\n      seconds = 59;\n      hours--;\n    } else {\n      // When countdown reaches 00:00:00\n      countdownStarted = false;\n      showAlert = true; // Set flag to show alert text\n      serial.write(\"1\"); // Send signal to Arduino\n    }\n  }\n}\n\n/*------------------------------------*\\\n  Functions for Serial Communication\n\\*------------------------------------*/\n\nfunction serialEvent() {\n  // Part 1\n  // code to handle the incoming data:\n  let inData = serial.readString().trim();\n  \n  // verify that you are getting data:\n  console.log(\"Received from Arduino:\", inData);\n\n  // Part 2\n  // if there is data AND that data equals a \"1\" string\n  if (inData && inData === \"1\") {\n    // Part 3\n    // then call the function to start the countdown since the button has been pressed\n    startCountdown();\n  }\n}\n\n// Function to start the countdown\nfunction startCountdown() {\n  // Reset timer values for a new countdown\n  hours = 0;\n  minutes = 0;\n  seconds = 10;\n  countdownStarted = true; // Set countdown flag to true\n  showAlert = false; // Reset the alert display flag\n  console.log(\"Countdown started\"); // Debugging log\n}\n\n/*------------------------------------*\\\n  Serial Communication Setup Functions\n\\*------------------------------------*/\n\nfunction setupSerial() {\n  // check for any ports that are available:\n  serial.getPorts();\n  // if there's no port chosen, choose one:\n  serial.on(\"noport\", makePortButton);\n  // open whatever port is available:\n  serial.on(\"portavailable\", openPort);\n  // handle serial errors:\n  serial.on(\"requesterror\", portError);\n  // handle any incoming serial data:\n  serial.on(\"data\", serialEvent);\n  serial.on(\"close\", makePortButton);\n  // add serial connect/disconnect listeners:\n  navigator.serial.addEventListener(\"connect\", portConnect);\n  navigator.serial.addEventListener(\"disconnect\", portDisconnect);\n}\n\n// if there's no port selected,\n// make a port select button appear:\nfunction makePortButton() {\n  // create and position a port chooser button:\n  portButton = createButton(\"choose port\");\n  portButton.position(10, 10);\n  // give the port button a mousepressed handler:\n  portButton.mousePressed(choosePort);\n}\n\n// make the port selector window appear:\nfunction choosePort() {\n  if (portButton) {\n    portButton.show();\n  }\n  serial.requestPort();\n}\n\n// open the selected port, and make the port\n// button invisible:\nfunction openPort() {\n  // wait for the serial.open promise to return,\n  // then call the initiateSerial function\n  serial.open().then(initiateSerial);\n\n  // once the port opens, let the user know:\n  function initiateSerial() {\n    console.log(\"port open\");\n  }\n  // hide the port button once a port is chosen:\n  if (portButton) {\n    portButton.hide();\n  }\n}\n\n// pop up an alert if there's a port error:\nfunction portError(err) {\n  alert(\"Serial port error: \" + err);\n}\n\n// try to connect if a new serial port\n// gets added (i.e. plugged in via USB):\nfunction portConnect() {\n  console.log(\"port connected\");\n  serial.getPorts();\n}\n\n// if a port is disconnected:\nfunction portDisconnect() {\n  serial.close();\n  console.log(\"port disconnected\");\n}\n\nfunction closePort() {\n  serial.close();\n}\n\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "672e983f877749636ac07658",
+        "createdAt": "2024-11-08T23:05:33.227Z",
+        "updatedAt": "2024-11-08T23:05:33.227Z",
+        "id": "672e983f877749636ac07658"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js\"\n      integrity=\"sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <script src=\"https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js\"></script>\n    <script src=\"sketch.js\"></script>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>p5.webserial</title>\n  </head>\n  <body>\n<!--     To see the source files of this sketch,\n    <a\n      href=\"https://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\"\n      target=\"_blank\"\n      >click here</a\n    > -->\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e983f877749636ac07656",
+        "createdAt": "2024-11-08T23:05:33.227Z",
+        "updatedAt": "2024-11-08T23:05:33.227Z",
+        "id": "672e983f877749636ac07656"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e983f877749636ac07659",
+        "createdAt": "2024-11-08T23:05:33.227Z",
+        "updatedAt": "2024-11-08T23:05:33.227Z",
+        "id": "672e983f877749636ac07659"
+      },
+      {
+        "name": "plant.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/8bccae0e-8b0f-461d-bb4a-2129dd1443ca.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e983f877749636ac07657",
+        "createdAt": "2024-11-08T23:05:33.227Z",
+        "updatedAt": "2024-11-08T23:05:33.227Z",
+        "id": "672e983f877749636ac07657"
+      }
+    ],
+    "createdAt": "2024-11-08T23:01:20.227Z",
+    "updatedAt": "2024-11-08T23:05:33.227Z",
+    "id": "TKQnJuSAS"
+  },
+  {
+    "_id": "IfLUFjdc9",
+    "name": "project2FINAL stage2 COUNTDOWN copy copy",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "672e99aa877749636ac0765b",
+          "672e99aa877749636ac0765c",
+          "672e99aa877749636ac0765d",
+          "672e99aa877749636ac0765e"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "672e99aa877749636ac0765a",
+        "createdAt": "2024-11-11T01:27:29.398Z",
+        "updatedAt": "2024-11-11T01:27:29.398Z",
+        "id": "672e99aa877749636ac0765a"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nNYU IMA Creative Computing\nEllen Nickles\n\nSerial read using p5.webserial, one value\n\nModified from sources: \nhttps://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\n\nhttps://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/\n*/\n\n// instance of p5.webserial library:\nlet serial = new p5.WebSerial();\n// port chooser button:\n\n// port chooser button:\n\n// port chooser button:\nlet portButton;\nlet hours = 0;\nlet minutes = 0;\nlet seconds = 10;\nlet bgImage;\nlet alertText= 'Time to water the plants!!!'\n\n// flag to control the countdown\nlet countdownStarted = false; // Countdown should only start when button is pressed\n\nfunction preload() {\n  // Loading the background image\n  bgImage = loadImage(\"plant.png\"); \n}\n\nfunction setup() {\n  createCanvas(400, 600);\n  // check to see if serial is available:\n  if (!navigator.serial) {\n    alert(\"WebSerial is not supported in this browser. Try Chrome or MS Edge.\");\n  } else {\n    // set up serial communication\n    setupSerial();\n  }\n  textSize(48);\n  textAlign(CENTER, BOTTOM);\n  setInterval(updateTime, 1000); // UpdatING the time every second\n\n}\n\nfunction draw() {\n  background(bgImage); // Displaying the background image\n\n  // Drawing a rectangle behind the counter\n  fill(0, 150); // Black with transparency for contrast\n  rect(0, height - 80, width, 80);\n\n  fill(255); \n  let timeString = nf(hours, 2) + \":\" + nf(minutes, 2) + \":\" + nf(seconds, 2);\n  text(timeString, width / 2, height - 20);\n}\n\n// Part 3\nfunction updateTime() {\n  // Updating the time if the countdown has started\n  if (countdownStarted) {\n    if(seconds !=0) {\n      seconds--;}\n    \n    if (seconds <= 0 && minutes!=0) {\n      seconds = 60;\n      minutes--;\n    }\n    \n    if (minutes <= 0 && hours!=0) {\n      minutes = 60;\n      hours--;\n    }\n  }\n}\n\nfunction alert() {\n  if(hours ==0 && minutes == 0 && seconds ==0 ){\n    serial.write(\"1\");\n    text(alertText, 200, 300)\n    hours =0;\n    minutes = 0;\n    seconds=0;\n    serial.write(\"1\");\n  }\n}\n\n/*------------------------------------*\\\n  Functions for Serial Communication\n\\*------------------------------------*/\n\n// If all goes well from the functions below,\n// read any incoming data as a \"string\"\n// (assumes a newline at the end of it)\n\nfunction serialEvent() {\n  // Part 1\n  // code to handle the incoming data:\n  let inData = serial.readString().trim();\n  \n  // verify that we are getting data:\n  console.log(inData);\n\n  // Part 2\n  // if there is data AND that data equals a \"1\" string\n  if (inData && inData === \"1\") {\n    // Part 3\n    // then call the function to start the countdown since the button has been pressed\n    startCountdown();\n    alert();\n  }\n}\n\n// Function to start the countdown\nfunction startCountdown() {\n  hours = 0;\n  minutes =0;\n  seconds = 10;\n  countdownStarted = true; // Set countdown flag to true\n}\n\n/*------------------------------------*\\\n  Serial Communication Setup Functions\n\\*------------------------------------*/\n\nfunction setupSerial() {\n  // check for any ports that are available:\n  serial.getPorts();\n  // if there's no port chosen, choose one:\n  serial.on(\"noport\", makePortButton);\n  // open whatever port is available:\n  serial.on(\"portavailable\", openPort);\n  // handle serial errors:\n  serial.on(\"requesterror\", portError);\n  // handle any incoming serial data:\n  serial.on(\"data\", serialEvent);\n  serial.on(\"close\", makePortButton);\n  // add serial connect/disconnect listeners:\n  navigator.serial.addEventListener(\"connect\", portConnect);\n  navigator.serial.addEventListener(\"disconnect\", portDisconnect);\n}\n\n// if there's no port selected,\n// make a port select button appear:\nfunction makePortButton() {\n  // create and position a port chooser button:\n  portButton = createButton(\"choose port\");\n  portButton.position(10, 10);\n  // give the port button a mousepressed handler:\n  portButton.mousePressed(choosePort);\n}\n\n// make the port selector window appear:\nfunction choosePort() {\n  if (portButton) {\n    portButton.show();\n  }\n  serial.requestPort();\n}\n\n// open the selected port, and make the port\n// button invisible:\nfunction openPort() {\n  // wait for the serial.open promise to return,\n  // then call the initiateSerial function\n  serial.open().then(initiateSerial);\n\n  // once the port opens, let the user know:\n  function initiateSerial() {\n    console.log(\"port open\");\n  }\n  // hide the port button once a port is chosen:\n  if (portButton) {\n    portButton.hide();\n  }\n}\n\n// pop up an alert if there's a port error:\nfunction portError(err) {\n  alert(\"Serial port error: \" + err);\n}\n\n// try to connect if a new serial port\n// gets added (i.e. plugged in via USB):\nfunction portConnect() {\n  console.log(\"port connected\");\n  serial.getPorts();\n}\n\n// if a port is disconnected:\nfunction portDisconnect() {\n  serial.close();\n  console.log(\"port disconnected\");\n}\n\nfunction closePort() {\n  serial.close();",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "672e99aa877749636ac0765d",
+        "createdAt": "2024-11-11T01:27:29.398Z",
+        "updatedAt": "2024-11-11T01:27:29.398Z",
+        "id": "672e99aa877749636ac0765d"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script\n      src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js\"\n      integrity=\"sha512-WIklPM6qPCIp6d3fSSr90j+1unQHUOoWDS4sdTiR8gxUTnyZ8S2Mr8e10sKKJ/bhJgpAa/qG068RDkg6fIlNFA==\"\n      crossorigin=\"anonymous\"\n    ></script>\n    <script src=\"https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js\"></script>\n    <script src=\"sketch.js\"></script>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>p5.webserial</title>\n  </head>\n  <body>\n<!--     To see the source files of this sketch,\n    <a\n      href=\"https://github.com/ITPNYU/physcomp/tree/main/Labs/P5SerialLabs/P5ReadSerial/readSerialWebSerial\"\n      target=\"_blank\"\n      >click here</a\n    > -->\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e99aa877749636ac0765b",
+        "createdAt": "2024-11-11T01:27:29.398Z",
+        "updatedAt": "2024-11-11T01:27:29.398Z",
+        "id": "672e99aa877749636ac0765b"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e99aa877749636ac0765e",
+        "createdAt": "2024-11-11T01:27:29.398Z",
+        "updatedAt": "2024-11-11T01:27:29.398Z",
+        "id": "672e99aa877749636ac0765e"
+      },
+      {
+        "name": "plant.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/97e64a32-b774-46de-b9b5-0da5a38353d4.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "672e99aa877749636ac0765c",
+        "createdAt": "2024-11-11T01:27:29.398Z",
+        "updatedAt": "2024-11-11T01:27:29.398Z",
+        "id": "672e99aa877749636ac0765c"
+      }
+    ],
+    "createdAt": "2024-11-08T23:07:23.352Z",
+    "updatedAt": "2024-11-11T01:27:29.398Z",
+    "id": "IfLUFjdc9"
+  },
+  {
+    "_id": "JIanExOrT",
+    "name": "Q",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "6718664fd3c52484ecedf6f3",
+          "6718664fd3c52484ecedf6f2",
+          "6718664fd3c52484ecedf6f4"
+        ],
+        "fileType": "folder",
+        "_id": "6718664fd3c52484ecedf6f5",
+        "createdAt": "2024-10-23T03:07:10.616Z",
+        "updatedAt": "2024-10-23T03:07:10.616Z",
+        "id": "6718664fd3c52484ecedf6f5"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  let mousePosX = mouseX;\n  let mousePosY = mouseY;\n\n  if (mousePosX < width / 2 && mousePosY < height / 2) {\n    fill(255, 0, 0);\n    rect(0, 0, width / 2, height / 2);\n  } \n  \n  if (mousePosX > width / 2 && mousePosY < height / 2) {\n    fill(0, 255, 0);\n    rect(width / 2, 0, width / 2, height / 2);\n  } \n  \n  if (mousePosX < width / 2 && mousePosY > height / 2) {\n    fill(0, 0, 255);\n    rect(0, height / 2, width / 2, height / 2);\n  } \n  \n  if (mousePosX > width / 2 && mousePosY > height / 2) {\n    fill(255, 255, 0);\n    rect(width / 2, height / 2, width / 2, height / 2);\n  } \n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "6718664fd3c52484ecedf6f2",
+        "createdAt": "2024-10-23T03:07:10.616Z",
+        "updatedAt": "2024-10-23T03:07:10.616Z",
+        "id": "6718664fd3c52484ecedf6f2"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "6718664fd3c52484ecedf6f3",
+        "createdAt": "2024-10-23T03:07:10.616Z",
+        "updatedAt": "2024-10-23T03:07:10.616Z",
+        "id": "6718664fd3c52484ecedf6f3"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "6718664fd3c52484ecedf6f4",
+        "createdAt": "2024-10-23T03:07:10.616Z",
+        "updatedAt": "2024-10-23T03:07:10.616Z",
+        "id": "6718664fd3c52484ecedf6f4"
+      }
+    ],
+    "updatedAt": "2024-10-23T03:07:10.616Z",
+    "createdAt": "2024-10-23T03:07:10.616Z",
+    "id": "JIanExOrT"
+  },
+  {
+    "_id": "5BuQubyw7",
+    "name": "Q1",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67185b8b6eb85612f4fc3bf7",
+          "67185b8b6eb85612f4fc3bf6",
+          "67185b8b6eb85612f4fc3bf8"
+        ],
+        "fileType": "folder",
+        "_id": "67185b8b6eb85612f4fc3bf9",
+        "createdAt": "2024-10-23T02:41:48.653Z",
+        "updatedAt": "2024-10-23T02:41:48.653Z",
+        "id": "67185b8b6eb85612f4fc3bf9"
+      },
+      {
+        "name": "sketch.js",
+        "content": "// Part 1\nlet xPosition1 = 200, yPosition1 = 200;\n\n// Part 2\nlet xPosition2a = 200, yPosition2a = 200; \nlet xPosition2b = 200, yPosition2b = 200; \nlet xPosition2c = 200, yPosition2c = 200; \n\n// Part 3\nlet xPosition3a = 200, yPosition3a = 200; \nlet xPosition3b = 200, yPosition3b = 200; \nlet xPosition3c = 200, yPosition3c = 200; \nlet xPosition3d = 200, yPosition3d = 200; \n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(200);\n\n  // Part 1\n  circle(xPosition1, yPosition1, 50);\n  xPosition1 = xPosition1 + 1;\n\n  // Part 2\n  circle(xPosition2a, yPosition2a, 50);\n  xPosition2a = xPosition2a - 1;\n\n  circle(xPosition2b, yPosition2b, 50);\n  yPosition2b = yPosition2b - 1;\n\n  circle(xPosition2c, yPosition2c, 50);\n  yPosition2c = yPosition2c + 1;\n\n  // Part 3\n  circle(xPosition3a, yPosition3a, 50);\n  xPosition3a = xPosition3a - 1;\n  yPosition3a = yPosition3a - 1;\n\n  circle(xPosition3b, yPosition3b, 50);\n  xPosition3b = xPosition3b + 1;\n  yPosition3b = yPosition3b - 1;\n\n  circle(xPosition3c, yPosition3c, 50);\n  xPosition3c = xPosition3c - 1;\n  yPosition3c = yPosition3c + 1;\n\n  circle(xPosition3d, yPosition3d, 50);\n  xPosition3d = xPosition3d + 1;\n  yPosition3d = yPosition3d + 1;\n\n  // Part 4\n  xPosition1 = xPosition1 + 9;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67185b8b6eb85612f4fc3bf6",
+        "createdAt": "2024-10-23T02:41:48.653Z",
+        "updatedAt": "2024-10-23T02:41:48.653Z",
+        "id": "67185b8b6eb85612f4fc3bf6"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67185b8b6eb85612f4fc3bf7",
+        "createdAt": "2024-10-23T02:41:48.653Z",
+        "updatedAt": "2024-10-23T02:41:48.653Z",
+        "id": "67185b8b6eb85612f4fc3bf7"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67185b8b6eb85612f4fc3bf8",
+        "createdAt": "2024-10-23T02:41:48.653Z",
+        "updatedAt": "2024-10-23T02:41:48.653Z",
+        "id": "67185b8b6eb85612f4fc3bf8"
+      }
+    ],
+    "updatedAt": "2024-10-23T02:41:48.653Z",
+    "createdAt": "2024-10-23T02:17:56.635Z",
+    "id": "5BuQubyw7"
+  },
+  {
+    "_id": "10UvDjkpo",
+    "name": "Q2-1",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671860d0d3c52484ecedf6eb",
+          "671860d0d3c52484ecedf6ea",
+          "671860d0d3c52484ecedf6ec"
+        ],
+        "fileType": "folder",
+        "_id": "671860d0d3c52484ecedf6ed",
+        "createdAt": "2024-10-23T02:44:10.456Z",
+        "updatedAt": "2024-10-23T02:44:10.456Z",
+        "id": "671860d0d3c52484ecedf6ed"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let x = 200;\nlet xSpeed = 3;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(200);\n  x += xSpeed;\n  if (x > width - 50 || x < 50) {\n    xSpeed *= -1;\n  }\n  circle(x, 200, 100);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671860d0d3c52484ecedf6ea",
+        "createdAt": "2024-10-23T02:44:10.456Z",
+        "updatedAt": "2024-10-23T02:44:10.456Z",
+        "id": "671860d0d3c52484ecedf6ea"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671860d0d3c52484ecedf6eb",
+        "createdAt": "2024-10-23T02:44:10.456Z",
+        "updatedAt": "2024-10-23T02:44:10.456Z",
+        "id": "671860d0d3c52484ecedf6eb"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "671860d0d3c52484ecedf6ec",
+        "createdAt": "2024-10-23T02:44:10.456Z",
+        "updatedAt": "2024-10-23T02:44:10.456Z",
+        "id": "671860d0d3c52484ecedf6ec"
+      }
+    ],
+    "updatedAt": "2024-10-23T02:44:10.456Z",
+    "createdAt": "2024-10-23T02:35:58.916Z",
+    "id": "10UvDjkpo"
+  },
+  {
+    "_id": "Es__EtHzb",
+    "name": "Q2-2",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67186223d3c52484ecedf6ef",
+          "67186223d3c52484ecedf6f0",
+          "67186223d3c52484ecedf6f1"
+        ],
+        "fileType": "folder",
+        "_id": "67186223d3c52484ecedf6ee",
+        "createdAt": "2024-10-23T02:58:20.611Z",
+        "updatedAt": "2024-10-23T02:58:20.611Z",
+        "id": "67186223d3c52484ecedf6ee"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let x = 200;\nlet y = 200;\nlet xSpeed = 3;\nlet ySpeed = 2;\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(200);\n  x += xSpeed;\n  y += ySpeed;\n  if (x > width - 50 || x < 50) {\n    xSpeed *= -1;\n  }\n  if (y > height - 50 || y < 50) {\n    ySpeed *= -1;\n  }\n  circle(x, y, 100);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67186223d3c52484ecedf6f0",
+        "createdAt": "2024-10-23T02:58:20.611Z",
+        "updatedAt": "2024-10-23T02:58:20.611Z",
+        "id": "67186223d3c52484ecedf6f0"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67186223d3c52484ecedf6ef",
+        "createdAt": "2024-10-23T02:58:20.611Z",
+        "updatedAt": "2024-10-23T02:58:20.611Z",
+        "id": "67186223d3c52484ecedf6ef"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67186223d3c52484ecedf6f1",
+        "createdAt": "2024-10-23T02:58:20.611Z",
+        "updatedAt": "2024-10-23T02:58:20.611Z",
+        "id": "67186223d3c52484ecedf6f1"
+      }
+    ],
+    "createdAt": "2024-10-23T02:40:35.679Z",
+    "updatedAt": "2024-10-23T02:58:20.611Z",
+    "id": "Es__EtHzb"
+  },
+  {
+    "_id": "n9B7G48Dp",
+    "name": "Q2-3",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "6718599eb69a2b52dc89f58e",
+          "6718599eb69a2b52dc89f58d",
+          "67185fbcdae676d0cb86670c",
+          "6718599eb69a2b52dc89f58f"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "6718599eb69a2b52dc89f590",
+        "createdAt": "2024-10-23T02:48:56.530Z",
+        "updatedAt": "2024-10-23T02:48:56.530Z",
+        "id": "6718599eb69a2b52dc89f590"
+      },
+      {
+        "name": "sketch.js",
+        "content": "let x = 200;\nlet y = 200;\nlet xSpeed = 3;\nlet ySpeed = 2;\nlet img;\n\nfunction preload() {\n  img = loadImage('star.png'); \n}\n\nfunction setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(200);\n  x += xSpeed;\n  y += ySpeed;\n\n  if (x > width - 50 || x < 50) {\n    xSpeed *= -1;\n  }\n  if (y > height - 50 || y < 50) {\n    ySpeed *= -1;\n  }\n\n  image(img, x - 50, y - 50, 100, 100);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "6718599eb69a2b52dc89f58d",
+        "createdAt": "2024-10-23T02:48:56.530Z",
+        "updatedAt": "2024-10-23T02:48:56.530Z",
+        "id": "6718599eb69a2b52dc89f58d"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "6718599eb69a2b52dc89f58e",
+        "createdAt": "2024-10-23T02:48:56.530Z",
+        "updatedAt": "2024-10-23T02:48:56.530Z",
+        "id": "6718599eb69a2b52dc89f58e"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "6718599eb69a2b52dc89f58f",
+        "createdAt": "2024-10-23T02:48:56.530Z",
+        "updatedAt": "2024-10-23T02:48:56.530Z",
+        "id": "6718599eb69a2b52dc89f58f"
+      },
+      {
+        "name": "star.png",
+        "content": "",
+        "url": "https://assets.editor.p5js.org/64edfde3e49db1001ad87775/ac782a6b-0ca5-40f2-b19b-5bc2c63f930d.png",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67185fbcdae676d0cb86670c",
+        "createdAt": "2024-10-23T02:48:56.530Z",
+        "updatedAt": "2024-10-23T02:48:56.530Z",
+        "id": "67185fbcdae676d0cb86670c"
+      }
+    ],
+    "updatedAt": "2024-10-23T02:48:56.530Z",
+    "createdAt": "2024-10-23T02:12:19.939Z",
+    "id": "n9B7G48Dp"
+  },
+  {
+    "_id": "-iID5M_T0",
+    "name": "Q3",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67186860d3c52484ecedf6f7",
+          "67186860d3c52484ecedf6f6",
+          "67186860d3c52484ecedf6f8"
+        ],
+        "fileType": "folder",
+        "_id": "67186860d3c52484ecedf6f9",
+        "createdAt": "2024-10-23T03:14:21.483Z",
+        "updatedAt": "2024-10-23T03:14:21.483Z",
+        "id": "67186860d3c52484ecedf6f9"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(200);\n  \n  let buttonX = 150;\n  let buttonY = 150;\n  let buttonSize = 100;\n  \n  let insideButton = mouseX > buttonX && mouseX < buttonX + buttonSize && mouseY > buttonY && mouseY < buttonY + buttonSize;\n\n  if (insideButton && mouseIsPressed) {\n    fill(0);\n  } else if (insideButton) {\n    fill(255, 255, 0);\n  } else {\n    fill(255);\n  }\n  \n  rect(buttonX, buttonY, buttonSize, buttonSize);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67186860d3c52484ecedf6f6",
+        "createdAt": "2024-10-23T03:14:21.483Z",
+        "updatedAt": "2024-10-23T03:14:21.483Z",
+        "id": "67186860d3c52484ecedf6f6"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67186860d3c52484ecedf6f7",
+        "createdAt": "2024-10-23T03:14:21.483Z",
+        "updatedAt": "2024-10-23T03:14:21.483Z",
+        "id": "67186860d3c52484ecedf6f7"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67186860d3c52484ecedf6f8",
+        "createdAt": "2024-10-23T03:14:21.483Z",
+        "updatedAt": "2024-10-23T03:14:21.483Z",
+        "id": "67186860d3c52484ecedf6f8"
+      }
+    ],
+    "updatedAt": "2024-10-23T03:14:21.483Z",
+    "createdAt": "2024-10-23T03:14:21.483Z",
+    "id": "-iID5M_T0"
+  },
+  {
+    "_id": "IWwbffKyS",
+    "name": "Q3-vlera",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "671866990ac81189c593581b",
+          "671866990ac81189c593581c",
+          "671866990ac81189c593581d"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "671866990ac81189c593581a",
+        "createdAt": "2024-10-23T03:02:46.701Z",
+        "updatedAt": "2024-10-23T03:02:46.701Z",
+        "id": "671866990ac81189c593581a"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(400, 400);\n}\n\nfunction draw() {\n  background(220);\n  \n  // top left\n  if (mouseX < width / 2 && mouseY < height / 2) {\n    fill(0);\n    rect(0, 0, width / 2, height / 2);\n  } \n  \n  // top right\n  if (mouseX >= width / 2 && mouseY < height / 2) {\n    fill(255, 0, 0);\n    rect(width / 2, 0, width / 2, height / 2);\n  } \n  \n  // bottom right\n  if (mouseX >= width / 2 && mouseY >= height / 2) {\n    fill(0, 255, 0);\n    rect(width / 2, height / 2, width / 2, height / 2);\n  } \n  \n  // bottom left\n  if (mouseX < width / 2 && mouseY >= height / 2) {\n    fill(0, 0, 255);\n    rect(0, height / 2, width / 2, height / 2);\n  }\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "671866990ac81189c593581c",
+        "createdAt": "2024-10-23T03:02:46.701Z",
+        "updatedAt": "2024-10-23T03:02:46.701Z",
+        "id": "671866990ac81189c593581c"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "671866990ac81189c593581b",
+        "createdAt": "2024-10-23T03:02:46.701Z",
+        "updatedAt": "2024-10-23T03:02:46.701Z",
+        "id": "671866990ac81189c593581b"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "671866990ac81189c593581d",
+        "createdAt": "2024-10-23T03:02:46.701Z",
+        "updatedAt": "2024-10-23T03:02:46.701Z",
+        "id": "671866990ac81189c593581d"
+      }
+    ],
+    "createdAt": "2024-10-23T02:59:37.202Z",
+    "updatedAt": "2024-10-23T03:02:46.701Z",
+    "id": "IWwbffKyS"
+  },
+  {
+    "_id": "BSQ4QPltl",
+    "name": "Self-Portrait",
+    "updatedAt": "2023-09-04T20:18:53.359Z",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "64f616213c2f2bf48f7ebeab",
+          "64f616213c2f2bf48f7ebeaa",
+          "64f616213c2f2bf48f7ebeac"
+        ],
+        "fileType": "folder",
+        "_id": "64f616213c2f2bf48f7ebead",
+        "isSelectedFile": false,
+        "createdAt": "2023-09-04T20:18:53.359Z",
+        "updatedAt": "2023-09-04T20:18:53.359Z",
+        "id": "64f616213c2f2bf48f7ebead"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  createCanvas(500, 500);\n  background(\"#CEC0D8\");\n  angleMode(DEGREES);\n  \n  //dress\n  rectMode(CENTER);\n  fill(55, 153, 202);\n  rect(244, 470, 330, 190, 180);\n  \n  //hijab\n  noStroke();\n  fill(15, 33, 121);\n  arc(200, 280, 300, 380, 120, 90, OPEN);\n  arc(250, 420, 200, 250, 120, 90, OPEN); \n  \n  //face\n  noStroke();\n  fill(230, 217, 213);\n  ellipse(220, 265, 200, 242);  \n  \n  \n}\n\n\n/*function draw() {\n  //background(50);\n}*/",
+        "children": [],
+        "fileType": "file",
+        "_id": "64f616213c2f2bf48f7ebeaa",
+        "isSelectedFile": true,
+        "createdAt": "2023-09-04T20:18:53.359Z",
+        "updatedAt": "2023-09-04T20:18:53.359Z",
+        "id": "64f616213c2f2bf48f7ebeaa"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "64f616213c2f2bf48f7ebeab",
+        "isSelectedFile": false,
+        "createdAt": "2023-09-04T20:18:53.359Z",
+        "updatedAt": "2023-09-04T20:18:53.359Z",
+        "id": "64f616213c2f2bf48f7ebeab"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "64f616213c2f2bf48f7ebeac",
+        "isSelectedFile": false,
+        "createdAt": "2023-09-04T20:18:53.359Z",
+        "updatedAt": "2023-09-04T20:18:53.359Z",
+        "id": "64f616213c2f2bf48f7ebeac"
+      }
+    ],
+    "createdAt": "2023-09-04T20:18:46.272Z",
+    "id": "BSQ4QPltl"
+  },
+  {
+    "_id": "HEh9ri_rT",
+    "name": "Vlera - CC - WK5 - Fix me 😃",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "670d99ecc7154b574ee53e1b",
+          "670d99ecc7154b574ee53e1c",
+          "670d99ecc7154b574ee53e1d"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "670d99ecc7154b574ee53e1a",
+        "createdAt": "2024-10-14T22:32:27.801Z",
+        "updatedAt": "2024-10-14T22:32:27.801Z",
+        "id": "670d99ecc7154b574ee53e1a"
+      },
+      {
+        "name": "sketch.js",
+        "content": "function setup() {\n  \n  angleMode(DEGREES);\n  createCanvas(400, 400);\n  background(220);\n\n  stroke(255, 160, 0); \n  strokeWeight(8);\n  fill(255, 230, 0);\n  circle(200, 200, 300);\n\n  stroke(130, 70, 3);\n  fill(160, 100, 8);\n  ellipse(150, 150, 40, 100);\n  ellipse(250, 150, 40, 100);\n\n  fill(160, 100, 8);\n  arc(200, 225, 200, 160, 0, 180, CHORD);\n  fill(255);\n  arc(200, 225, 200, 80, 0, 180, CHORD);\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "670d99ecc7154b574ee53e1c",
+        "createdAt": "2024-10-14T22:32:27.801Z",
+        "updatedAt": "2024-10-14T22:32:27.801Z",
+        "id": "670d99ecc7154b574ee53e1c"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "670d99ecc7154b574ee53e1b",
+        "createdAt": "2024-10-14T22:32:27.801Z",
+        "updatedAt": "2024-10-14T22:32:27.801Z",
+        "id": "670d99ecc7154b574ee53e1b"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "670d99ecc7154b574ee53e1d",
+        "createdAt": "2024-10-14T22:32:27.801Z",
+        "updatedAt": "2024-10-14T22:32:27.801Z",
+        "id": "670d99ecc7154b574ee53e1d"
+      }
+    ],
+    "createdAt": "2024-10-14T22:23:40.323Z",
+    "updatedAt": "2024-10-14T22:32:27.801Z",
+    "id": "HEh9ri_rT"
+  }
+]
