@@ -1439,6 +1439,141 @@
     "id": "_YJt5FlTF"
   },
   {
+    "_id": "GVQYuR8T4",
+    "name": "ims01-vlera",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67ee6bbe799f48bee46fdc24",
+          "67ee6bbe799f48bee46fdc25",
+          "67ee6bbe799f48bee46fdc26"
+        ],
+        "fileType": "folder",
+        "_id": "67ee6bbe799f48bee46fdc23",
+        "createdAt": "2025-04-03T11:30:02.496Z",
+        "updatedAt": "2025-04-03T11:30:02.496Z",
+        "id": "67ee6bbe799f48bee46fdc23"
+      },
+      {
+        "name": "sketch.js",
+        "content": "/*\nThis sketch works by using the draw() function to keep running again and again like a loop.\nEvery time it runs, it first clears the screen with a background color.\nThen it calls different functions to draw shapes like circles, ellipses, triangles, and lines.\nEach function draws one part of the picture (like eyes, head, or body) using specific coordinates.\nThe shapes are layered and placed to create a character-like design.\nThe algorithm works by repeating these steps over and over so the picture stays on the screen.\n*/\n//Source: https://editor.p5js.org/vlera/sketches/o11qDKHJR \n\n\nfunction setup() {\n  createCanvas(400, 360);\n}\n\nfunction draw() {\n  background(240);\n  drawCircle();\n  drawEllipses();\n  drawPoints();\n  drawLines();\n  drawTriangle();\n  drawArc();\n  drawSmallTriangle();\n  drawShortLines();\n}\n\nfunction drawCircle() {\n  fill(180, 100);\n  strokeWeight(2);\n  circle(200, 100, 150);\n}\n\nfunction drawEllipses() {\n  strokeWeight(2);\n  ellipse(100, 80, 40, 20);\n  strokeWeight(1);\n  ellipse(210, 100, 40, 20);\n}\n\nfunction drawPoints() {\n  strokeWeight(3);\n  point(110, 80);\n  point(220, 100);\n}\n\nfunction drawLines() {\n  strokeWeight(1);\n  for (let i = 0; i < 4; i++) {\n    line(90 + i * 10, 65, 100 + i * 10, 45);\n  }\n\n  for (let i = 0; i < 4; i++) {\n    line(195 + i * 10, 85, 205 + i * 10, 65);\n  }\n}\n\nfunction drawTriangle() {\n  strokeWeight(2);\n  triangle(160, height, 263, 202, 263, height);\n}\n\nfunction drawArc() {\n  strokeWeight(1);\n  arc(175, 200, 175, 175, 0, HALF_PI, PIE);\n}\n\nfunction drawSmallTriangle() {\n  strokeWeight(1);\n  triangle(120, 225, 190, 100, 190, 225);\n}\n\nfunction drawShortLines() {\n  strokeWeight(3);\n  line(150, 245, 190, 250);\n  line(155, 260, 190, 250);\n}",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67ee6bbe799f48bee46fdc25",
+        "createdAt": "2025-04-03T11:30:02.496Z",
+        "updatedAt": "2025-04-03T11:30:02.496Z",
+        "id": "67ee6bbe799f48bee46fdc25"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67ee6bbe799f48bee46fdc24",
+        "createdAt": "2025-04-03T11:30:02.496Z",
+        "updatedAt": "2025-04-03T11:30:02.496Z",
+        "id": "67ee6bbe799f48bee46fdc24"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "_id": "67ee6bbe799f48bee46fdc26",
+        "createdAt": "2025-04-03T11:30:02.496Z",
+        "updatedAt": "2025-04-03T11:30:02.496Z",
+        "id": "67ee6bbe799f48bee46fdc26"
+      }
+    ],
+    "createdAt": "2025-04-03T11:06:38.759Z",
+    "updatedAt": "2025-04-03T11:30:02.496Z",
+    "id": "GVQYuR8T4"
+  },
+  {
+    "_id": "-06E5eatL",
+    "name": "ims02-vlera",
+    "files": [
+      {
+        "name": "root",
+        "content": "",
+        "children": [
+          "67ee75bb7f23d67bde7f8f63",
+          "67ee768b7f23d67bde7f8f67",
+          "67ee767b7f23d67bde7f8f66",
+          "67ee75bb7f23d67bde7f8f62",
+          "67ee75bb7f23d67bde7f8f64"
+        ],
+        "fileType": "folder",
+        "isSelectedFile": false,
+        "_id": "67ee75bb7f23d67bde7f8f65",
+        "createdAt": "2025-04-03T14:47:55.660Z",
+        "updatedAt": "2025-04-03T14:47:55.660Z",
+        "id": "67ee75bb7f23d67bde7f8f65"
+      },
+      {
+        "name": "sketch.js",
+        "content": "//Source: https://openprocessing.org/sketch/2580004\n\nlet theShader;\nlet fsButton;\n\nfunction preload() {\n  theShader = loadShader('shader.vert', 'shader.frag');\n}\n\nfunction setup() {\n  pixelDensity(1);\n  createCanvas(windowWidth, windowHeight, WEBGL);\n  noStroke();\n\n  fsButton = createButton(\"Fullscreen\");\n  fsButton.position(20, 20);\n  fsButton.style(\"font-size\", \"20px\");\n  fsButton.mousePressed(enterFullscreen);\n}\n\nfunction draw() {\n  shader(theShader);\n  theShader.setUniform(\"u_resolution\", [width, height]);\n  theShader.setUniform(\"u_time\", millis() / 1000.0);\n  rect(0, 0, width, height);\n}\n\nfunction windowResized() {\n  resizeCanvas(windowWidth, windowHeight);\n}\n\n\nfunction enterFullscreen() {\n  fullscreen(true);        \n  fsButton.remove();       \n  resizeCanvas(windowWidth, windowHeight); \n}",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": true,
+        "_id": "67ee75bb7f23d67bde7f8f62",
+        "createdAt": "2025-04-03T14:47:55.660Z",
+        "updatedAt": "2025-04-03T14:47:55.660Z",
+        "id": "67ee75bb7f23d67bde7f8f62"
+      },
+      {
+        "name": "index.html",
+        "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js\"></script>\n    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js\"></script>\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n    <meta charset=\"utf-8\" />\n\n  </head>\n  <body>\n    <main>\n    </main>\n    <script src=\"sketch.js\"></script>\n  </body>\n</html>\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67ee75bb7f23d67bde7f8f63",
+        "createdAt": "2025-04-03T14:47:55.660Z",
+        "updatedAt": "2025-04-03T14:47:55.660Z",
+        "id": "67ee75bb7f23d67bde7f8f63"
+      },
+      {
+        "name": "style.css",
+        "content": "html, body {\n  margin: 0;\n  padding: 0;\n}\ncanvas {\n  display: block;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67ee75bb7f23d67bde7f8f64",
+        "createdAt": "2025-04-03T14:47:55.660Z",
+        "updatedAt": "2025-04-03T14:47:55.660Z",
+        "id": "67ee75bb7f23d67bde7f8f64"
+      },
+      {
+        "name": "shader.vert",
+        "content": "#ifdef GL_ES\nprecision mediump float;\n#endif\n\nattribute vec3 aPosition;\n\nvoid main() {\n  vec4 positionVec4 = vec4(aPosition, 1.0);\n  positionVec4.xy = positionVec4.xy * 2.0 - 1.0;\n  gl_Position = positionVec4;\n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67ee767b7f23d67bde7f8f66",
+        "createdAt": "2025-04-03T14:47:55.660Z",
+        "updatedAt": "2025-04-03T14:47:55.660Z",
+        "id": "67ee767b7f23d67bde7f8f66"
+      },
+      {
+        "name": "shader.frag",
+        "content": "#ifdef GL_ES\nprecision mediump float;\n#endif\n\nuniform vec2 u_resolution;\nuniform float u_time;\nfloat PI = 3.142;\n\nfloat smoothMod(float x, float y, float e){\n    float top = cos(PI * (x/y)) * sin(PI * (x/y));\n    float bot = pow(sin(PI * (x/y)),2.);\n    float at = atan(top/bot);\n    return y * (1./2.) - (1./PI) * at ;\n}\n\nvec2 modPolar(vec2 p, float repetitions) {\n    float angle = 2.*3.14/repetitions;\n    float a = atan(p.y, p.x) + angle/2.;\n    float r = length(p);\n    a = smoothMod(a,angle,033323231231561.9) - angle/2.;\n    vec2 p2 = vec2(cos(a), sin(a))*r;\n    return p2;\n}\n\nvec2 rotate2D (vec2 _st, float _angle) {\n    _st -= 0.5;\n    _st =  mat2(cos(_angle),-sin(_angle), sin(_angle),cos(_angle)) * _st;\n    _st += 0.5;\n    return _st;\n}\n\nvec2 rotateTilePattern(vec2 _st){\n    _st *= 2.0;\n    float index = 0.0;\n    index += step(1., mod(_st.x,2.0));\n    index += step(1., mod(_st.y,2.0))*2.0;\n    _st = fract(_st);\n    if(index == 1.0){\n        _st = rotate2D(_st,PI*0.5);\n    } else if(index == 2.0){\n        _st = rotate2D(_st,PI*-0.5);\n    } else if(index == 3.0){\n        _st = rotate2D(_st,PI);\n    }\n    return _st;\n}\n\nvoid main() {\n    vec2 uv = gl_FragCoord.xy/u_resolution.xy;\n    vec2 uv2 = gl_FragCoord.xy/u_resolution.xy;\n    vec3 color = vec3(1.);\n\n    float t = (u_time * .125) + uv.x;\n    float t2 = (u_time * .125) + uv.y;\n    float t3 = (u_time * .25) + length(uv-.3);\n\n    uv = mix(modPolar(uv-.5, 30.* cos(t3)), modPolar(uv-.5, 4.* cos(t2)), sin(t3*.3));\n    uv = mix(uv, uv2, sin(t2*.3));\n    uv = rotateTilePattern(uv);\n\n    color = mix(color, 1.-color, step(sin(t), .5));\n    color = mix(color, 1.-color, step(sin(t), .4));\n\n    uv2 = fract(uv * 2.);\n    t = (u_time * .125) + uv2.x;\n    color = mix(color, 1.-color, step(sin(t), .5));\n    color = mix(color, 1.-color, step(sin(t), .4));\n    color = mix(color, 1.-color, step(sin(t2), .5));\n    color = mix(color, 1.-color, step(sin(t2), .4));\n\n    vec2 uv3 = fract(uv * 4.);\n    t = (u_time * .125) + uv3.x;\n    t2 = (u_time * .125) + uv3.y;\n    color = mix(color, 1.-color, step((cos(t) +1.)*.5, .5));\n    color = mix(color, 1.-color, step((cos(t) +1.)*.5, .4));\n    color = mix(color, 1.-color, step(cos(t2), .5));\n    color = mix(color, 1.-color, step(cos(t2), .4));\n\n    vec2 uv4 = fract(uv * 16.);\n    t = (u_time * .105) + uv4.x;\n    t2 = (u_time * .105) + uv4.y;\n\n    if(color == vec3(0.)){\n        color = mix(color, 1.-color, step(sin(t), .5));\n        color = mix(color, 1.-color, step(sin(t), .4));\n        color = mix(color, 1.-color, step(sin(t2), .5));\n        color = mix(color, 1.-color, step(sin(t2), .4));\n    }\n\n    vec2 uv5 = fract(uv * 20.);\n    t = (u_time * .0805) + uv5.x;\n    t2 = (u_time * .0805) + uv5.y;\n\n    if(color == vec3(1.)){\n        color = mix(color, 1.-color, step((cos(t) +1.)*.5, .5));\n        color = mix(color, 1.-color, step((cos(t*.8) +1.)*.5, .4));\n        color = mix(color, 1.-color, step(cos(t2*.7), .5));\n        color = mix(color, 1.-color, step(cos(t2*.6), .4));\n    }\n\n    color = mix(color, 1.-color, step(uv.x, uv.y));\n    gl_FragColor = vec4(color,1.0); \n}\n",
+        "children": [],
+        "fileType": "file",
+        "isSelectedFile": false,
+        "_id": "67ee768b7f23d67bde7f8f67",
+        "createdAt": "2025-04-03T14:47:55.660Z",
+        "updatedAt": "2025-04-03T14:47:55.660Z",
+        "id": "67ee768b7f23d67bde7f8f67"
+      }
+    ],
+    "updatedAt": "2025-04-03T14:47:55.660Z",
+    "createdAt": "2025-04-03T11:58:13.463Z",
+    "id": "-06E5eatL"
+  },
+  {
     "_id": "ihJmk2XGB",
     "name": "Judicious quark",
     "files": [
